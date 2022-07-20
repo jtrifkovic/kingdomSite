@@ -19,7 +19,7 @@ const Navbar = () => {
                 Home
             </NavLink>
             /
-            <NavLink to="/about" >
+            <NavLink className="navLink" to="/about" >
                 About us
             </NavLink>
             /

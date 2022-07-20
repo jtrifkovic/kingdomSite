@@ -1,3 +1,8 @@
+.container {
+    width: min(1170px, calc(100vw - 100px));
+    margin-inline: auto;
+}
+
 .bg-image{
     background-image: url(../../img/slider\ image.png);
     background-position: center;
@@ -71,4 +76,8 @@
     margin-top: 90px;
 
     cursor: pointer;
+}
+
+.aboutTop {
+    
 }
