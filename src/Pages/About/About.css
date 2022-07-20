@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: url(/src/img/aboutWallpaper.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -120px;
+}
+
+.headerTextWrapper {
+    padding: 233px 0 0 375px ;
+}
+
+.headerText{
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+}
+
+.navigatorWrapper{
+    background-color: black;
+    padding: 34px 30px 17px 30px;
+    width: 169px;  
+    
+    border-radius: 5px;
+    opacity: 0.2;
+   
+}
+
+.navigatorHolder{
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    color: white;
+
+    display: flex;
+}
+
+.navigatorHolder h4{
+    font-family: Sora Light;
+    font-size: 16px;
+}
+
+.navigator{
+    margin-top: 115px;
+
+    position: relative;
+}
+
+.fa-angle-right{
+    padding: 0 20px 0 20px;
+}
