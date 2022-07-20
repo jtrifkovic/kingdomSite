@@ -1,0 +1,74 @@
+.bg-image{
+    background-image: url(../../img/slider\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100.1vh;
+    width: 100%;
+    margin-top: -100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-image h5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 14px;
+    font-family: Sora;
+    font-weight: 400;
+    color: #fff;
+
+    padding-left: 25%;
+}
+
+.bg-image h1 { 
+    font-size: 80px;
+    font-family: Sora;
+    font-weight: 500;
+    color: #fff;
+
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+.homeBtn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-size: 14px;
+    font-family: Sora;
+    color: #fff;
+
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+
+    padding: 17px 5px 17px 30px;
+    margin-left: 25%;
+    margin-top: 25px;
+
+    max-width: 163px;
+    cursor: pointer;
+}
+
+.circleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    width: 60px;
+    height: 60px;
+
+    margin-left: 25%;
+    margin-top: 90px;
+
+    cursor: pointer;
+}

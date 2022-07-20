@@ -10,7 +10,7 @@ a{
 
     color: #fff;
 
-    padding: 0px 40px;
+    padding: 10px 40px 0px 40px;
 }
 
 .nav-links {
@@ -47,4 +47,8 @@ a{
     margin-left: 20px;
     border: 1px solid #fff;
     border-radius: 12px;
+}
+
+.burger, .logo, .navBtn {
+    cursor: pointer;
 }
