@@ -1,11 +1,15 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Navbar from './Components/navbar/Navbar';
 
 function App() {
   return (
-      <div>
-        Test Jovan
-        Test Bogdan
-      </div>
+    <Router>
+      <Navbar />
+      <Routes>
+      </Routes>
+    </Router>
   );
 }
 
