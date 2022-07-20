@@ -2,6 +2,8 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../../img/logo.png'
 import {NavLink} from 'react-router-dom'
+import {FaGlobe} from 'react-icons/fa'
+import {FaChevronDown} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -23,6 +25,11 @@ const Navbar = () => {
                 Services
             </NavLink>
             </ul>
+        </div>
+        <div className=''>
+        <FaGlobe />
+        English
+        <FaChevronDown />
         </div>
         
     </div>
