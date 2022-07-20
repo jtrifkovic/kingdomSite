@@ -1,10 +1,10 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../img/logo.png'
+import burger from '../../img/menu-icon.png'
 import {NavLink} from 'react-router-dom'
 import {FaGlobe} from 'react-icons/fa'
 import {FaCaretDown} from 'react-icons/fa'
-import {FaBars} from 'react-icons/fa'
 import {FaAngleRight} from 'react-icons/fa'
 
 const Navbar = () => {
@@ -38,7 +38,7 @@ const Navbar = () => {
         </button>
         </div>
         <div className='burger'>
-            <FaBars />
+           <img src={burger} />
         </div>
     </div>
   )
