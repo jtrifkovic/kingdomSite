@@ -3,7 +3,9 @@ import './Navbar.css'
 import logo from '../../img/logo.png'
 import {NavLink} from 'react-router-dom'
 import {FaGlobe} from 'react-icons/fa'
-import {FaChevronDown} from 'react-icons/fa'
+import {FaCaretDown} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa'
+import {FaAngleRight} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -13,25 +15,31 @@ const Navbar = () => {
         </div>
         <div>
             <ul className='nav-links'>
-            <NavLink to="/" >
+            <NavLink className="navLink" to="/" >
                 Home
             </NavLink>
             /
-            <NavLink to="/" >
+            <NavLink className="navLink" to="/" >
                 About us
             </NavLink>
             /
-            <NavLink to="/" >
+            <NavLink className="navLink" to="/" >
                 Services
             </NavLink>
             </ul>
         </div>
-        <div className=''>
+        <div className='language'>
         <FaGlobe />
         English
-        <FaChevronDown />
+        <FaCaretDown />
+        <button className='navBtn'>
+            Check Availability
+            <FaAngleRight />
+        </button>
         </div>
-        
+        <div className='burger'>
+            <FaBars />
+        </div>
     </div>
   )
 }

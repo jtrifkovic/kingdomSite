@@ -6,13 +6,45 @@ a{
 .navbar{ 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+
+    padding: 0px 40px;
 }
 
 .nav-links {
     display: flex;
     gap: 37px;
-    align-items: center;
+    color: #fff;
 
     font-size: 18px;
     font-family: Sora;
+}
+
+.navLink {
+    color: #fff;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 18px;
+    font-family: Sora;
+    color: #fff;
+
+    background-color: transparent;
+
+    padding: 7px 26px 7px 20px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    border-radius: 12px;
 }
