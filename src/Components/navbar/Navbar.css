@@ -7,3 +7,11 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+.nav-links {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+
+    font-size: 18px;
+}

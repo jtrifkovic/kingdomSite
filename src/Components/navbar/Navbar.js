@@ -9,14 +9,16 @@ const Navbar = () => {
         <div className='logo'>
             <img src={logo} />
         </div>
-        <div className='nav-links'>
-            <ul>
+        <div>
+            <ul className='nav-links'>
             <NavLink to="/" >
                 Home
             </NavLink>
+            /
             <NavLink to="/" >
                 About us
             </NavLink>
+            /
             <NavLink to="/" >
                 Services
             </NavLink>
