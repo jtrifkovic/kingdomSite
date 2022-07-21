@@ -3,4 +3,125 @@
     color: #fff;
     margin-top: -4px;
     padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footerTitl{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footerTitl h1 {
+    font-size: 3.75rem;
+    font-family: Sora;
+    font-weight: 500;
+}
+
+.footBtn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-size: 1rem;
+    font-family: Sora;
+    color: #fff;
+
+    padding: 1rem 1.8rem;
+    margin-bottom: 1rem;
+
+    background-color: #2272EC;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.footerSoc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 10%;
+}
+
+.leftPartPop{
+    display: flex;
+    gap: 5.4375rem;
+}
+
+.leftPartPop p {
+    font-size: 1.25rem;
+    font-family: Sora;
+    font-weight: 500;
+    color: #C9DFFF;
+}
+
+.fotSocCrc {
+    margin-left: 0.6rem;
+    padding: 1rem 1.125rem 0.875rem 1.125rem;
+    border: 1px solid #707070;
+    border-radius: 50%;
+
+    font-size: 1rem;
+    color: #fff ;
+}
+
+.fotSocCrc.active {
+    background-color: #2272EC;
+}
+
+.leftPartTwo{
+    display: flex;
+    gap: 3.3rem;
+}
+
+.leftPartTwo p {
+    font-size: 1.25rem;
+    font-family: Sora;
+    font-weight: 500;
+    color: #C9DFFF;
+    
+}
+
+.pt25{
+    padding-top: 1.5rem;
+}
+
+.brBot {
+    border-bottom: 1px solid #263748;
+    padding-bottom: 4.375rem;
+}
+
+.botFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 5rem;
+}
+
+.leftBot {
+    display: flex;
+    gap: 1.1875rem;
+
+}
+
+.leftBot p {
+    font-size: 1rem;
+    font-family: Sora;
+    color: #92A1B2;
+}
+
+.midBot button {
+    padding: 1.4375rem;
+    border-radius: 50%;
+    background-color: #2272EC;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rightBot {
+    font-size: 1rem;
+    font-family: Sora;
+    color:#92A1B2 ;
 }

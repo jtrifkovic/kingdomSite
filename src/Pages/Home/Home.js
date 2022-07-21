@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useRef} from 'react'
 import './Home.css'
 import {FaAngleRight} from 'react-icons/fa'
 import dash from '../../img/Rectangle 178.png'
@@ -27,6 +27,8 @@ import Footer from '../../Components/footer/Footer'
 
 const Home = () => {
     const [text, setText] = useState(true)
+    const divRef = useRef();
+    const topRef = useRef();
     const boxes = [
         {
             img:`${graph}`,
@@ -94,11 +96,8 @@ const Home = () => {
         setOpenText(tempData)
 
     }
-
-
-
   return (
-    <div>
+    <div ref={topRef}>
     <div className='bg-image'>
         <h5>
             <img src={dash} />
@@ -112,7 +111,9 @@ const Home = () => {
             Find out more
             <FaAngleRight />
         </button>
-        <button className='circleBtn'>
+        <button className='circleBtn'  onClick={() => {
+          divRef.current.scrollIntoView({ behavior: "smooth" });
+        }}>
             <img src={downDash} />
         </button>
     </div>
@@ -275,10 +276,10 @@ const Home = () => {
     </div>
     </div>
     </div>
-    <div className='large-image'>
+    <div className='large-image' >
         <img src={bigImg} />
     </div>
-    <Footer />
+    <Footer divRef={divRef} topRef={topRef} />
     </div>
   )
 }
