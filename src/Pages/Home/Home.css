@@ -1,6 +1,10 @@
 .container {
-    width: min(1170px, calc(100vw - 100px));
+    max-width: 1170px;
     margin-inline: auto;
+}
+
+.flex{
+    display: flex;
 }
 
 .bg-image{
@@ -20,44 +24,45 @@
 .bg-image h5 {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: Sora;
     font-weight: 400;
     color: #fff;
 
     padding-left: 25%;
+    padding-top: 15%;
 }
 
 .bg-image h1 { 
-    font-size: 80px;
+    font-size: 5rem;
     font-family: Sora;
     font-weight: 500;
     color: #fff;
 
     padding-left: 25%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .homeBtn {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: Sora;
     color: #fff;
 
     background-color: transparent;
     border: 1px solid #fff;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 
-    padding: 17px 5px 17px 30px;
+    padding: 1.0625rem .3125rem 1.0625rem 1.875rem;
     margin-left: 25%;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 
-    max-width: 163px;
+    max-width: 10.1875rem;
     cursor: pointer;
 }
 
@@ -69,15 +74,213 @@
     border: 1px solid #fff;
     border-radius: 50%;
 
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
 
     margin-left: 25%;
-    margin-top: 90px;
+    margin-top: 5.625rem;
 
     cursor: pointer;
 }
 
 .aboutTop {
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+
+    font-size: 0.875rem;
+    font-family: Sora;
+    color: #2272EC;
+
+    padding-top: 30%;
+    margin-left: 4.375rem;
+}
+
+.aboutTitle {
+    font-size: 3.75rem;
+    font-family: Sora;  
+
+    margin-left: 4.375rem;
+    margin-top: 0.625rem;
+}
+
+.abtMission {
+    font-size: 1.25rem;
+    font-family: Sora;
+
+    padding-top: 23%;
+    padding-left: 10.625rem;
     
 }
+
+.cngText {
+    font-size: 18px;
+    font-family: Sora;
+
+    padding-top: 1.25rem;
+    padding-left: 10.625rem;
+}
+
+.textBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 17%;
+}
+
+.textBtns button {
+    background-color: #F2F5F9;
+    border: none;
+
+    padding: 0.9375rem 1.25rem;
+    margin-left: 6.25rem;
+}
+
+.mountain {
+    background-image: url(../../img/mountain-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.leftPart{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    margin-left: 4.375rem;
+}
+
+.mountServices{
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+
+    font-size: 0.875rem;
+    font-family: Sora;
+    color: #2272EC;
+}
+
+.mountTitle{
+    font-size: 3.75rem;
+    font-family: Sora;
+}
+
+.mountExpertise {
+    font-size: 1.5rem;
+    font-family: Sora;
+}
+
+.mountBtn{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    font-size: 1rem;
+    font-family: Sora;
+    color: #fff;
+
+    background-color: #2272EC;
+    border: none;
+    border-radius: 1.875rem;
+
+    padding: 0.75rem 0.3125rem 0.75rem 1.875rem;
+    max-width: 12.1875rem;
+    cursor: pointer;
+}
+
+.boxHold{
+    display: flex;
+    align-items: center;
+    gap: 2.3125rem;
+
+    padding: 2.4375rem 7.625rem 2.125rem 2rem;
+    margin-left: 6.25rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+
+    margin-top: 1.25rem;
+}
+
+.boxTitle {
+    font-size: 1.25rem;
+    font-family: Sora;
+}
+
+.boxText {
+    font-size: 1rem;
+    font-family: Sora;
+
+    padding-top: 0.625rem;
+}
+
+.faq-holder{
+    padding-block: 7%;
+    margin-left: 4.375rem;
+
+}
+
+.faqStart {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    font-size: 0.875rem;
+    font-family: Sora;
+    color: #2272EC;
+}
+
+.faqTitle{
+    font-size: 3.75rem;
+    font-family: Sora;
+
+    padding-top: 1.25rem;
+}
+
+.faqOpen-holder {
+    padding-top: 2.2rem;
+}
+
+.faqOpen {
+    padding-block: 1.625rem;
+    border-block: 1px solid #E3E7EE;
+}
+
+.clsHold{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faqSect {
+    font-size: 1.25rem;
+    font-family: Sora;
+}
+
+.plsMin {
+    cursor: pointer;
+}
+
+.faqText {
+    font-size: 1.125rem;
+    font-family: Sora;
+
+    max-width: 50%;
+
+    padding: 1.25rem 0 1.6875rem 0;
+}
+
+.cardsSections{
+    background-color: #F2F5F9;
+    padding-bottom: 7%;
+}
+
+.large-image > img {
+    width: 100%;
+}
+
