@@ -1,4 +1,5 @@
 import {useState, useRef} from 'react'
+import {Link} from 'react-router-dom'
 import './Home.css'
 import {FaAngleRight} from 'react-icons/fa'
 import dash from '../../img/Rectangle 178.png'
@@ -93,8 +94,7 @@ const Home = () => {
     const showText = (ind) => {
         let tempData = [...openText];
         tempData[ind]["isOpened"] = !tempData[ind]["isOpened"];
-        setOpenText(tempData)
-
+        setOpenText(tempData);
     }
   return (
     <div ref={topRef}>
@@ -107,10 +107,12 @@ const Home = () => {
             Our goal is to move <br />
             our industry forward.
         </h1>
+        <Link to="/about">
         <button className='homeBtn'>
             Find out more
             <FaAngleRight />
         </button>
+        </Link>
         <button className='circleBtn'  onClick={() => {
           divRef.current.scrollIntoView({ behavior: "smooth" });
         }}>
@@ -173,7 +175,7 @@ const Home = () => {
         </div>
     </div>
     <div className='mountain'>
-        <div className='container flex' style={{paddingTop:"160px"}}>
+        <div className='container flex pt150'>
             <div className='leftPart'>
                 <div className='mountServices'>
                     <img src={dashBlue} />
@@ -229,7 +231,11 @@ const Home = () => {
                         <img src={text.isOpened ? `${minus}` : `${plus}`} />
                     </div>
                     </div>
-                    {text.isOpened && <div className='faqText'>{text.text} </div>}
+                    {text.isOpened && 
+                    <div className='faqText'>
+                        {text.text} 
+                    </div>
+                    }
                     </div>
                 ))}
             </div>
