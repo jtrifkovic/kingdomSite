@@ -123,7 +123,7 @@ const Home = () => {
             <img src={dashBlue} />
             ABOUT US
         </div>
-        <div className='aboutTitle'>
+        <div className='aboutTitleNew'>
             Our mission <br />
             & vission
         </div>
