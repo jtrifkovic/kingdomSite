@@ -33,7 +33,11 @@ import vue from "../../img/vue-logo.png"
 import azzure from "../../img/azzure-logo.png"
 import ffpmeg from "../../img/ffpmeg-logo.png"
 import express from "../../img/express-logo.png"
+import blueDot from "../../img/blueDot.svg"
+import quotes from "../../img/quotes.png"
+import profileIcon from "../../img/profile-icon.png"
 
+import Footer from "../../Components/footer/Footer"
 import { useState } from 'react';
 
 
@@ -141,22 +145,22 @@ const [text, setText] = useState(true);
           </div>
         </div>
         <div className='backgroundWhite'>
-        <div className='knowledgeSection'>
-          <div className='knowledgePointer'>
-            <img src={dashBlue}/>
+          <div className='knowledgeSection'>
+            <div className='knowledgePointer'>
+             <img src={dashBlue}/>
             KNOWLEDGE
-          </div>
-          <h1 className='knowledgeHeading'>We use latest<br/> technologies</h1>
-          <div className='images'>
-            <div className='imageHolder'>
-              <img src={adobe}/>
             </div>
-            <div className='imageHolder'>
-              <img src={angular}/>
-            </div>
-            <div className='imageHolder'>
-              <img src={cPlus}/>
-            </div>
+            <h1 className='knowledgeHeading'>We use latest<br/> technologies</h1>
+            <div className='images'>
+              <div className='imageHolder'>
+                <img src={adobe}/>
+              </div>
+              <div className='imageHolder'>
+                <img src={angular}/>
+              </div>
+              <div className='imageHolder'>
+                <img src={cPlus}/>
+              </div>
             <div className='imageHolder'>
               <img src={cSharp}/>
             </div>
@@ -223,11 +227,84 @@ const [text, setText] = useState(true);
             <div className='imageHolder'>
               <img src={express}/>
             </div>
-          
+          </div>
+
+          <div>
+          <div className='knowledgePointer'>
+             <img src={dashBlue}/>
+            KNOWLEDGE
+            </div>
+            <h1 className='knowledgeHeading'>Explore available<br/> positions</h1>
+            <div className='exploreTab'>
+              <div><img className='blueDot' src={blueDot}/>
+              <span className='exploreText'>JUNIOR FRONTEND ENGINEER</span></div>
+              <div className='applyNow'>
+                <span className='applySpan'>Apply now</span>
+                <FaAngleRight className="faRight"/>
+              </div>
+            </div>
+            <div className='exploreTab'>
+              <div><img className='blueDot' src={blueDot}/>
+              <span className='exploreText'>EXPERIENCED FRONTEND ENGINEER</span></div>
+              <div className='applyNow'>
+                <span className='applySpan'>Apply now</span>
+                <FaAngleRight className="faRight"/>
+              </div>
+            </div>
+            <div className='exploreTab'>
+              <div><img className='blueDot' src={blueDot}/>
+              <span className='exploreText'>JUNIOR JAVA ENGINEER</span></div>
+              <div className='applyNow'>
+                <span className='applySpan'>Apply now</span>
+                <FaAngleRight className="faRight"/>
+              </div>
+            </div>
+            <div className='exploreTab'>
+              <div><img className='blueDot' src={blueDot}/>
+              <span className='exploreText'>EXPERIENCED FRONTEND ENGINEER</span></div>
+              <div className='applyNow'>
+                <span className='applySpan'>Apply now</span>
+                <FaAngleRight className="faRight"/>
+              </div>
+            </div>
+         </div>
+         </div>
+         </div>
+      <div>
+        <div className='quatermarkWrapper'>
+              <div className='quatermarkHolder'>
+             <div>
+            <img className='qoutes' src={quotes}/>
+          </div>
+          <div className='infoQuotes'> 
+          <div>
+            <div className='blueHeading'>WHAT OUR CLIENTS SAY ABOUT US.</div>
+          </div>
+          <div className='loremText'>"Lorem ipsum dolor sit amet, consectetur adipiscing<br/>
+                elit sed do eiusmod tempor incididunt ut labore et<br/>
+                dol zut enim ad minim veniam."</div>
+          <div className='userInfoWrapper'> 
+          <div className='userInfoHolder'> 
+            <img src={profileIcon}/>
+            <div className='userInfo'>
+             <h5 className='userName'>Nikola Stojanovic</h5>  
+              <span className='userJob'>MARKETING - LEAD</span>
+            </div>
+            </div>
+            <div>
+            <div className='missionArrowWrapper'>
+          <div className='arrowLeft' onClick={()=>setText(false)}><FaAngleRight/></div>
+          <div className='arrowRight'onClick={()=>setText(true)}><FaAngleLeft/></div>
+          </div> 
+            </div>
+          </div>   
+         </div>
+          </div>
         </div>
+        <div className='blue'></div>     
         </div>
-        </div>
-        
+        <Footer />
+       
 
     
     </div>

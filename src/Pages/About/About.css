@@ -74,7 +74,7 @@ p{
 .cards, 
 .underCardsSection,
 .knowledgeSection{
-    margin: 0 20% 0 20%;
+    margin: 0 15% 0 15%;
 }
 
 .blueText{
@@ -102,7 +102,7 @@ p{
 }
 
 .missionHolder{
-    margin-left: 104px;
+    margin-left: 80px;
     margin-right: 12%;
 }
 
@@ -148,6 +148,9 @@ p{
 }
 
 .servicesHolder{
+    font-family: Sora;
+    font-size: 14px;
+
     color: white;
 
     display: flex;
@@ -232,6 +235,9 @@ p{
 }
 
 .knowledgePointer{
+    font-family: Sora;
+    font-size: 14px;
+
     padding: 160px 0px 0px 0px;
     gap: 21px;
 
@@ -243,6 +249,7 @@ p{
 
 .backgroundWhite{
     background-color: #F2F5F9;
+    padding-bottom: 20%;
 }
 
 .imageHolder{
@@ -259,4 +266,116 @@ p{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.exploreTab{
+    background-color: white;
+
+    margin-bottom: 20px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+}
+
+.blueDot{
+    margin: 0px 20px 0px 42px;
+}
+
+.exploreText{
+    font-family: Sora;
+    font-size: 20px;
+}
+
+.faRight, .applyNow{
+    color: #2272EC;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.applyNow{
+    padding-right: 30px;
+}
+
+.applySpan{
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 330;
+    padding-right: 24px;
+}
+
+.quatermarkWrapper{
+    background-color: white;
+    width: 85%;
+    margin-top: -13%;
+
+    position: relative;
+
+}
+
+.quatermarkHolder{
+    display: flex;
+    margin-left: 15%;
+}
+
+.qoutes{
+    margin-top: 208px;
+}
+
+.userInfoWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.blueHeading{
+    color: #3A88FF;
+    font-size: 20;
+    font-family: Sora;
+
+    padding: 135px 0 45px 0
+}
+
+.infoQuotes{
+    margin-left: 5%;
+}
+
+.loremText{
+    font-family: Sora;
+    font-size: 30px;
+
+    padding-bottom: 30px;
+}
+
+.userName{
+    font-size: 22px;
+    font-family: Sora;
+    font-weight: 600;
+}
+
+.userInfo{
+    padding-left: 20px;
+}
+
+.userJob{
+    font-size: 16px;
+    font-family: Sora;
+}
+
+.userInfoHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    width: 100%;
+    background-color: #020D19;
+    padding-top: 20%;
+    margin-top: -310px;
 }
