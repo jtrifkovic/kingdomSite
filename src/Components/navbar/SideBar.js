@@ -14,7 +14,7 @@ const SideBar = ({showNav, setShowNav}) => {
     style={{
         transform:`${showNav ? "translateX(0)" : "translateX(100%)"}`,
         transition:"1s ease-in",
-        position:"absolute",
+        position:"fixed",
         zIndex:'1000',
         top:"0"
         // display:`${showNav ? "block" : "none"}`
