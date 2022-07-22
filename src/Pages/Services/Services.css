@@ -20,14 +20,16 @@
     color:#fff;
     font-family: Sora;
     font-size: 60px;
+    font-weight: 400;
 }
 .transparent {
     display: flex;
     background-color: rgba(0,0,0,0.2);
 margin-left: 21.5rem;
-  width: 229px;
- gap:4%;
+  width: 259px;
+ gap:2%;
  margin-top: 2%;
+ border-radius: 10px;
 }
 .transparent h1 {
     color: #fff;
@@ -41,16 +43,20 @@ margin-left: 21.5rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
   
 }
 .main-content {
- padding-top: 10rem ;
- padding-left: 23.4rem;
- max-width: 701px;
+ padding-top: 5rem ;
+ padding-left: 13rem;
+width: 700px;
 }
-
+.main-content1 {
+    padding-top: 7rem ;
+    padding-left: 13rem;
+   width: 700px;
+   }
 .skills {
 font-size: 14px;
     color: #2272EC;
@@ -75,17 +81,18 @@ font-size: 14px;
     padding: 30px;
     margin-bottom: 2%;
     max-width: 670px;
+    border-radius: 10px;
 }
 .card-image {
     width:71px;
     height:50px;
-    
+    margin-top: 3%;
 
 }
 .card-wrapper {
-    margin-top: 15rem;
-    margin-left: 5rem;
-    margin-top: 10%;
+    
+  
+    margin-top: 8%;
 }
 .card-heading h1 {
     font-size: 20px;
@@ -107,9 +114,9 @@ font-size: 14px;
     display: flex;
 }
 .padding {
-    padding-top: 13rem;
+    padding-top: 6rem;
     display: flex;
-    padding-bottom: 4rem;
+    padding-bottom: 7rem;
 }
 .images {
     width: 100%;
@@ -138,4 +145,114 @@ font-size: 20px;}
     font-size:60px}
         .content-wrapper h3 {
             color: #fff;
-        font-size:85px;}
+        font-size:85px;
+    }
+
+    @media screen and (max-width: 1378px) {
+        .main-content1 {
+           
+                padding-top: 5rem ;
+                padding-left: 5rem;
+               width: 500px;
+               }
+        }
+        @media screen and (max-width: 1032px) {
+            .main-content1 {
+                text-align: center;
+            }
+            .content-wrapper {
+                margin: 0 auto;
+                max-width: 65%;
+               padding-top: 15%;
+               
+            }
+        }
+        @media screen and (max-width: 1176px) {
+            .main-content1 {
+                text-align: center;
+            }
+            .content-wrapper {
+                margin: 0 auto;
+                max-width: 65%;
+               padding-top: 15%;
+               
+            }
+            .content-wrapper h1 {
+                color: #fff;
+            font-size: 20px;}
+                .content-wrapper h2 {
+                    color: #fff;
+                font-size:40px}
+                    .content-wrapper h3 {
+                        color: #fff;
+                    font-size:55px;
+                }
+            .heading {
+                padding-top: 15rem;
+                padding-left: 5rem;
+                color:#fff;
+                font-family: Sora;
+                font-size: 60px;
+            }
+            .transparent {
+                display: flex;
+                background-color: rgba(0,0,0,0.2);
+            margin-left: 5rem;
+              width: 219px;
+             gap:1%;
+             margin-top: 2%;
+            }
+            .card {
+                background-color: #fff;
+                display: flex;
+                padding: 1rem;
+                margin-bottom: 2%;
+                max-width: 670px;
+            }
+            .main-background {
+                background-image: url(../../img/mountain-background.png);
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 min-height: 120vh;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+               
+             }
+             .main-content {
+                padding-top: 5rem ;
+                padding-left: 9rem;
+               width: 500px;
+               }
+            .card-image {
+                width:71px;
+                height:50px;
+            }
+               .card-wrapper {
+                margin-top: 2%;
+               }
+               .faqStart {
+                display: flex;
+                align-items: center;
+                gap: 1.25rem;
+            text-align: center;
+                font-size: 0.875rem;
+                font-family: Sora;
+                color: #2272EC;
+            }
+            }
+            @media screen and (max-width: 700px) {
+                .main-content {
+                    padding-top: 5rem ;
+                    padding-left: 2rem;
+                   width: 300px;
+                   }
+                   .heading {
+                    padding-top: 18rem; 
+                    padding-left: 5rem;
+                    color:#fff;
+                    font-family: Sora;
+                    font-size: 40px;
+                }
+            }
