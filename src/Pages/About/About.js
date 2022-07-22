@@ -51,8 +51,7 @@ const [secondText, setSecondText] = useState(true);
 
 const topRef = useRef();
 
-
-
+const name = "About Us"
 
   return (
     <div ref={topRef}>
@@ -62,11 +61,9 @@ const topRef = useRef();
         <div className='headerTextWrapper'>
         <Slide left>
           <h1 className='headerText'>Do what we love and <br/>work with passion</h1>
-        
-          <Navigator/>
-            </Slide>
+          <Navigator name={name}/>
+          </Slide>
           </div>
-         
       </div>
      
       <div className='aboutWrapper'>
