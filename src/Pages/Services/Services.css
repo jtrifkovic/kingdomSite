@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.background-image {
+    background-image: url(/src/img/slider.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  83.1vh;
+
+    margin-top: -100px;
+}
+.heading {
+    padding-top: 18rem; 
+    padding-left: 21.5rem;
+    color:#fff;
+    font-family: Sora;
+    font-size: 60px;
+}
+.transparent {
+    display: flex;
+    background-color: rgba(0,0,0,0.2);
+margin-left: 21.5rem;
+  width: 229px;
+ gap:4%;
+ margin-top: 2%;
+}
+.transparent h1 {
+    color: #fff;
+    font-size: 16px;
+    font-family: Sora;
+    padding: 15px;
+    
+}
+.main-background {
+   background-image: url(../../img/mountain-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+  
+}
+.main-content {
+ padding-top: 10rem ;
+ padding-left: 23.4rem;
+ max-width: 701px;
+}
+
+.skills {
+font-size: 14px;
+    color: #2272EC;
+    font-family: Sora;
+  padding:5px;
+  margin-top: 10px;
+}
+.main-content-heading {
+    font-size: 60px;
+    font-family: Sora;
+    color: #17171B;
+}
+.main-content-heading2 {
+    font-size: 24px;
+    font-family: Sora;
+    color: #17171B;
+    font-weight: lighter;
+}
+.card {
+    background-color: #fff;
+    display: flex;
+    padding: 30px;
+    margin-bottom: 2%;
+    max-width: 670px;
+}
+.card-image {
+    width:71px;
+    height:50px;
+    
+
+}
+.card-wrapper {
+    margin-top: 15rem;
+    margin-left: 5rem;
+    margin-top: 10%;
+}
+.card-heading h1 {
+    font-size: 20px;
+    font-family: Sora;
+    padding-left: 30px;
+}
+.card-heading p {
+    font-size: 16px;
+    font-family: Sora;
+    color: #606060;
+    padding-left: 30px;
+}
+.main-content-heading1 {
+    font-size: 40px;
+    font-family: Sora;
+    color: #17171B;
+}
+.middle-content {
+    display: flex;
+}
+.padding {
+    padding-top: 13rem;
+    display: flex;
+    padding-bottom: 4rem;
+}
+.images {
+    width: 100%;
+
+}
+.big-image1 {
+    width: 100%;
+}
+.bottom-background {
+    background-image: url(/src/img/Group\ 3754.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  100vh
+}
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 65%;
+   padding-top: 10%;
+}
+.content-wrapper h1 {
+    color: #fff;
+font-size: 20px;}
+    .content-wrapper h2 {
+        color: #fff;
+    font-size:60px}
+        .content-wrapper h3 {
+            color: #fff;
+        font-size:85px;}

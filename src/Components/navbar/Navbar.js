@@ -27,7 +27,7 @@ const Navbar = () => {
                 About us
             </NavLink>
             /
-            <NavLink className="navLink" to="/" >
+            <NavLink className="navLink" to="/services" >
                 Services
             </NavLink>
             </ul>
