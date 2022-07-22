@@ -38,31 +38,37 @@ import quotes from "../../img/quotes.png"
 import profileIcon from "../../img/profile-icon.png"
 
 import Footer from "../../Components/footer/Footer"
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import Slide from 'react-reveal/Slide'
+import Navigator from '../../Components/Navigator';
+
+
 
 
 const About = () => {
 const [text, setText] = useState(true);
+const [secondText, setSecondText] = useState(true);
+
+const topRef = useRef();
+
 
 
 
   return (
-    <div>
+    <div ref={topRef}>
+      
       <div className='header'>
+      
         <div className='headerTextWrapper'>
+        <Slide left>
           <h1 className='headerText'>Do what we love and <br/>work with passion</h1>
         
-        <div className='navigator'>
-          <div className='navigatorWrapper'>
+          <Navigator/>
+            </Slide>
           </div>
-          <div className='navigatorHolder'>
-          <h4>Home</h4>
-          <i className="fa-solid fa-angle-right"></i>
-          <h4>About Us</h4>
-          </div>
-        </div>
-        </div>
+         
       </div>
+     
       <div className='aboutWrapper'>
         <div className='aboutSection'>
           <div className='aboutTitle'>
@@ -280,21 +286,25 @@ const [text, setText] = useState(true);
           <div>
             <div className='blueHeading'>WHAT OUR CLIENTS SAY ABOUT US.</div>
           </div>
-          <div className='loremText'>"Lorem ipsum dolor sit amet, consectetur adipiscing<br/>
-                elit sed do eiusmod tempor incididunt ut labore et<br/>
-                dol zut enim ad minim veniam."</div>
+          {secondText && <div className='loremText'>"Lorem ipsum dolor sit amet, consectetur adipiscing<br/>
+                elit sed do eiusmod tempor incididunt ut labore<br/>
+                dol zut enim ad minim veniam."</div>}
+          {!secondText && <div className='loremText'>"Duis aute irure dolor in reprehenderit in voluptate<br/>
+                velit esse cillum dolore eu fugiat nulla pariatur..<br/>
+                 Excepteur occaecat cupidatat"</div>}
           <div className='userInfoWrapper'> 
           <div className='userInfoHolder'> 
             <img src={profileIcon}/>
             <div className='userInfo'>
-             <h5 className='userName'>Nikola Stojanovic</h5>  
+             {secondText && <h5 className='userName'>Nikola Stojanovic</h5>}
+             {!secondText && <h5 className="userName">Jovan Trifkovic</h5>}  
               <span className='userJob'>MARKETING - LEAD</span>
             </div>
             </div>
             <div>
             <div className='missionArrowWrapper'>
-          <div className='arrowLeft' onClick={()=>setText(false)}><FaAngleRight/></div>
-          <div className='arrowRight'onClick={()=>setText(true)}><FaAngleLeft/></div>
+          <div className='arrowLeft' onClick={()=>setSecondText(false)}><FaAngleRight/></div>
+          <div className='arrowRight'onClick={()=>setSecondText(true)}><FaAngleLeft/></div>
           </div> 
             </div>
           </div>   
@@ -303,7 +313,7 @@ const [text, setText] = useState(true);
         </div>
         <div className='blue'></div>     
         </div>
-        <Footer />
+        <Footer  topRef={topRef}/>
        
 
     

@@ -19,7 +19,7 @@ p{
 }
 
 .headerTextWrapper{
-    padding: 233px 0 0 20% ;
+    padding: 233px 0 0 0 ;
 }
 
 .headerText{
@@ -66,6 +66,7 @@ p{
 }
 .aboutSection{
     display: flex;
+    justify-content: center;
     margin: 173px 0 155px 0;
 }
 
@@ -73,7 +74,8 @@ p{
 .services, 
 .cards, 
 .underCardsSection,
-.knowledgeSection{
+.knowledgeSection,
+.headerTextWrapper{
     margin: 0 15% 0 15%;
 }
 
@@ -140,7 +142,13 @@ p{
     background: url(/src/img/logo2.png);
     background-repeat: no-repeat;
     background-size: cover;
+
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services{
@@ -168,10 +176,13 @@ p{
 }
 
 .cards{
+    padding: 50px 0px 38px 0px;
+
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     gap: 10px;
-    padding: 50px 0px 38px 0px;
 }
 
 .cardsHolder{
@@ -182,6 +193,8 @@ p{
     background-color: #2272EC;
     height: 180px;
     width: 370px;
+
+    border-radius: 5px;
 }
 
 .insideCardsHolder{
@@ -196,6 +209,7 @@ p{
 
 .underCardsSection{
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 180px;
 }
 
@@ -215,8 +229,7 @@ p{
 
 .secondLogo{
     border: 2px solid #FFC55F;
-    border-radius: 3px;
-    
+    border-radius: 5px;
 }
 
 .underCardsHeadingWrapper {
@@ -249,7 +262,7 @@ p{
 
 .backgroundWhite{
     background-color: #F2F5F9;
-    padding-bottom: 20%;
+    padding:0px 0px 20% 11%;
 }
 
 .imageHolder{
@@ -311,7 +324,7 @@ p{
 
 .quatermarkWrapper{
     background-color: white;
-    width: 85%;
+    width: 90%;
     margin-top: -13%;
 
     position: relative;
@@ -330,7 +343,7 @@ p{
 .userInfoWrapper{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10%;
+    padding-bottom: 50px;
 }
 
 .blueHeading{
@@ -378,4 +391,114 @@ p{
     background-color: #020D19;
     padding-top: 20%;
     margin-top: -310px;
+}
+
+
+/* ======================================================================================
+                                  MEDIA QUERY    
+   ======================================================================================
+*/
+
+
+
+@media screen and (max-width: 1499px) {
+    .underCardsHeadingWrapper{
+        margin: 0;
+    }
+    
+    .secondLogo{
+        padding-right: 60px;
+    }
+
+    .underCardsSection{
+        justify-content: center;
+    }
+
+    .underCardsHeading{
+        padding-top: 30px;
+    }
+
+    .missionText{
+        font-size: 50px;
+    }
+
+}
+@media screen and (max-width: 15340px) {
+    .missionText{
+        font-size: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 1670px) {
+    .servicesHeading{
+        font-size: 50px;
+    }
+    .knowledgeSection{
+        margin: 0 14% 0 15%;
+    }
+    .backgroundWhite{
+        padding: 0px 0px 20% 0%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1650px) and (max-width: 1750px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 3%;
+    }
+    .backgroundWhite{
+        padding: 0 0 20% 0%;
+    }
+}
+
+@media screen and (min-width: 1750px) and (max-width: 1900px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 4%;
+    }
+    .backgroundWhite{
+        padding: 0px 0px 20% 0%;
+    }
+
+    .images{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2050px) { 
+    .backgroundWhite{
+        padding: 0px 0px 20% 7%;
+    }
+
+    .headerTextWrapper{
+        padding: 233px 0 0 6%;
+    }
+
+
+}
+@media screen and (min-width: 2050px) and (max-width: 2300px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 9%;
+    }
+
+}
+@media screen and (min-width: 2300px) and (max-width: 2500px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 11%;
+    }
+
+}
+@media screen and (min-width: 2500px) and (max-width: 2779px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 13%;
+    }
+
 }
