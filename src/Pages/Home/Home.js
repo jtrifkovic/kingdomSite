@@ -25,6 +25,8 @@ import react from "../../img/react.png"
 import java from "../../img/java.png"
 import bigImg from '../../img/iznad futera.png'
 import Footer from '../../Components/footer/Footer'
+import Slide from 'react-reveal/Slide'
+import Spin from 'react-reveal/Spin'
 
 const Home = () => {
     const [text, setText] = useState(true)
@@ -96,9 +98,11 @@ const Home = () => {
         tempData[ind]["isOpened"] = !tempData[ind]["isOpened"];
         setOpenText(tempData);
     }
+
   return (
     <div ref={topRef}>
     <div className='bg-image'>
+        <Slide left>
         <h5>
             <img src={dash} />
             WEB DEVELOPMENT AGENCY
@@ -107,6 +111,7 @@ const Home = () => {
             Our goal is to move <br />
             our industry forward.
         </h1>
+        
         <Link to="/about">
         <button className='homeBtn'>
             Find out more
@@ -118,8 +123,9 @@ const Home = () => {
         }}>
             <img src={downDash} />
         </button>
+        </Slide>
     </div>
-    <div className='container flex' style={{paddingBottom:"100px"}}>
+    <div className='container flex pb100'>
         <div>
         <div className='aboutTop'>
             <img src={dashBlue} />
@@ -199,9 +205,11 @@ const Home = () => {
             <div className='rightPart'>
                 {boxes.map((item, i) => (
                     <div className='boxHold' key={i}>
+                        <Spin>
                         <div>
                             <img src={item.img} />
                         </div>
+                        </Spin>
                         <div>
                             <p className='boxTitle'>{item.title}</p>
                             <p className='boxText'>{item.text}</p>

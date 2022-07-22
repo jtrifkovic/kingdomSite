@@ -52,3 +52,92 @@ a{
 .burger, .logo, .navBtn {
     cursor: pointer;
 }
+
+.burgerOpen {
+    background-image: url(../../img/backround-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.topOpen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+    /* gap: 12.5rem; */
+}
+
+.engOpen {
+    display: flex;
+    gap: 56rem;
+}
+
+.engContent-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.xOpen {
+    cursor: pointer;
+}
+
+.midContentOpen{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding-top: 5%;
+}
+
+.fotSocCrcOpen{
+    font-size: 1rem;
+    color: #fff ;
+
+    margin-left: 0.6rem;
+    padding: 1rem 1.125rem 0.875rem 1.125rem;
+
+    border: 1px solid #fff ;
+    border-radius: 50%;
+}
+
+.midContentOpen a {
+    font-size: 5.5rem;
+    font-family: Sora;
+    font-weight: 500;
+    color: #fff;
+}
+
+.midContentOpen a span {
+    font-size: 0.875rem;
+}
+
+.botOpen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 5%;
+}
+
+.leftBotOpen {
+    display: flex;
+    gap: 10px;
+
+    font-size: 1rem;
+    font-family: Sora;
+    color: #fff;
+}
+
+.rightBotOpen {
+    font-size: 1rem;
+    font-family: Sora;
+    color: #fff;
+}

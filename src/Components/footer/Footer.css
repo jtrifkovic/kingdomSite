@@ -125,3 +125,31 @@
     font-family: Sora;
     color:#92A1B2 ;
 }
+
+@media (max-width: 1200px) {
+    .footerTitl h1 {
+        font-size: 3rem;
+    }
+
+    .leftPartTwo {
+        gap: 4.2rem;
+    }
+    
+    .leftPartTwo p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footerTitl h1 {
+        font-size: 2.5rem;
+    }
+
+    .leftPartTwo p {
+        font-size: .8rem;
+    }
+
+    .leftPartTwo {
+        gap: 4.7rem;
+    }
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import {useState} from 'react'
+import SideBar from './SideBar'
 import './Navbar.css'
 import logo from '../../img/logo.png'
 import burger from '../../img/menu-icon.png'
@@ -8,7 +9,10 @@ import {FaCaretDown} from 'react-icons/fa'
 import {FaAngleRight} from 'react-icons/fa'
 
 const Navbar = () => {
+    const [showNav, setShowNav] = useState(false)
+
   return (
+    <>
     <div className='navbar'>
         <div className='logo'>
             <img src={logo} />
@@ -37,10 +41,12 @@ const Navbar = () => {
             <FaAngleRight />
         </button>
         </div>
-        <div className='burger'>
+        <div className='burger' onClick={() => setShowNav(true)}>
            <img src={burger} />
         </div>
     </div>
+    <SideBar showNav={showNav} setShowNav={setShowNav} />
+    </>
   )
 }
 

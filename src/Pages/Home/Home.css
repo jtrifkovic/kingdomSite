@@ -251,6 +251,19 @@
     border-block: 1px solid #E3E7EE;
 }
 
+.knowledgePointer{
+    font-family: Sora;
+    font-size: 14px;
+
+    padding: 160px 0px 0px 0px;
+    gap: 21px;
+
+    color:#2272EC;
+
+    display: flex;
+    align-items: center;
+}
+
 .clsHold{
     display: flex;
     align-items: center;
@@ -286,4 +299,112 @@
 
 .pt150 {
     padding-top: 150px;
+}
+
+.pb100{
+    padding-bottom: 100px;
+}
+
+@media (max-height: 900px) {
+    .pt150{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 1201px) {
+    .bg-image h5{
+        font-size: 0.8rem;
+    }
+
+    .bg-image h1{
+        font-size: 4rem;
+    }
+
+    .aboutTop{
+        padding-top: 20%;
+    }
+
+    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeading {
+        font-size: 3rem !important;
+    }
+
+    .abtMission{
+        padding-top: 10%;
+    }
+
+    .pb100 {
+        padding-bottom: 50px;
+    }
+    
+    .faq-holder{
+        margin-left: 0;
+    }
+
+    .knowledgePointer{
+        padding: 50px 0px 0px 0px !important;
+    }
+
+    .images, .knowledgeHeading, .knowledgePointer  {
+        margin-left: 70px;
+    }
+
+    .cngText{
+        font-size: 1rem;
+        padding-left: 8rem;
+    }
+
+    .abtMission{
+        padding-left: 8rem;
+    }
+    
+    .textBtns{
+        padding-top: 8%;
+    }
+}
+
+@media (max-width: 1102px) {
+    .images, .knowledgeHeading, .knowledgePointer  {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 1000px ) {
+    .bg-image h1 {
+        font-size: 3rem;
+        padding-left: 155;
+    }
+
+    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeading {
+        font-size: 2.5rem !important;
+    }
+
+    .mountExpertise {
+        font-size: 1.25rem;
+    }
+
+    .faqSect{
+        font-size: 1rem;
+    }
+
+    .cngText{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .boxHold {
+        padding: 2.4375rem 4rem 2.125rem 2rem;
+    }
+
+    .images, .knowledgeHeading, .knowledgePointer  {
+        margin-left: 90px;
+    }
+
+    .cngText{
+        padding-left: 7rem;
+    }
+
+    .abtMission{
+        padding-left: 7rem;
+    }
 }
