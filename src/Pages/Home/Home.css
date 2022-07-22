@@ -311,6 +311,16 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .faq-holder{
+        margin-left: 0;
+    }
+
+    .images, .knowledgeHeading, .knowledgePointer  {
+        margin-left: 50px;
+    }
+}
+
 @media (max-width: 1201px) {
     .bg-image h5{
         font-size: 0.8rem;
@@ -345,7 +355,7 @@
     }
 
     .images, .knowledgeHeading, .knowledgePointer  {
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .cngText{
@@ -364,7 +374,13 @@
 
 @media (max-width: 1102px) {
     .images, .knowledgeHeading, .knowledgePointer  {
-        margin-left: 120px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1031px) {
+    .images, .knowledgeHeading, .knowledgePointer  {
+        margin-left: 50px;
     }
 }
 
@@ -389,6 +405,8 @@
     .cngText{
         font-size: 1rem;
     }
+
+
 }
 
 @media (max-width: 960px) {
@@ -406,5 +424,40 @@
 
     .abtMission{
         padding-left: 7rem;
+    }
+
+    .images, .knowledgeHeading, .knowledgePointer  {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .flex {
+        flex-direction: column;
+    }
+    
+    .textBtns {
+        flex-direction: row;
+    }
+
+    .cngText{
+        padding-left: 0;
+    }
+
+    .textBtns button {
+        margin-left:0 ;
+    }
+
+    .abtMission{
+        padding-left: 0;
+    }
+
+    .boxHold{
+        margin-left: 0;
+    }
+
+    .faqText{
+        max-width: 80%;
     }
 }

@@ -3,6 +3,11 @@ a{
     color: black;
 }
 
+.containerOpen{
+    max-width: min(1170px, calc(100vw - 100px));
+    margin-inline: auto;
+}
+
 .navbar{ 
     display: flex;
     justify-content: space-between;
@@ -140,4 +145,146 @@ a{
     font-size: 1rem;
     font-family: Sora;
     color: #fff;
+}
+
+@media (max-height: 900px) {
+    .midContentOpen a {
+        font-size: 4rem;
+    }
+
+    .botOpen {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .nav-links{
+        display: none;
+    }
+
+    .language{
+        display: none;
+    }    
+}
+
+@media (max-width: 1450px) {
+    .engOpen{
+        gap: 38rem;
+    }
+
+    .containerOpen {
+        max-width: min(870px, calc(100vw - 100px));
+        margin-inline: auto;
+    }
+}
+
+@media (max-width: 1160px) {
+    .engOpen{
+        gap: 30rem;
+    }
+
+    .containerOpen {
+        max-width: min(740px, calc(100vw - 100px));
+        margin-inline: auto;
+    }
+
+    .midContentOpen a {
+        font-size: 4rem;
+    }
+
+    .botOpen {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .engOpen{
+        gap: 25rem;
+    }
+
+    .containerOpen {
+        max-width: min(640px, calc(100vw - 100px));
+        margin-inline: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .engOpen{
+        gap: 20rem;
+    }
+
+    .containerOpen {
+        max-width: min(540px, calc(100vw - 100px));
+        margin-inline: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .engOpen{
+        gap: 10rem;
+    }
+
+    .containerOpen {
+        max-width: min(640px, calc(100vw - 100px));
+        margin-inline: auto;
+    }
+
+    .midContentOpen a {
+        font-size: 3rem;
+    }
+
+    .leftBotOpen {
+        font-size: 0.8rem;
+    }
+
+    .botOpen {
+        padding-top: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .engOpen{
+        gap: 10rem;
+    }
+
+    .containerOpen {
+        max-width: min(470px, calc(100vw - 15px));
+    }
+
+    .midContentOpen a {
+        font-size: 2rem;
+    }
+
+    .leftBotOpen {
+        font-size: 0.8rem;
+    }
+
+    .botOpen {
+        padding-top: 30%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .engOpen{
+        gap: 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .containerOpen {
+        max-width: min(370px, calc(100vw - 15px));
+    }
+
+    .midContentOpen a {
+        font-size: 2rem;
+    }
+
+    .leftBotOpen {
+        font-size: 0.8rem;
+    }
+
+    .botOpen {
+        padding-top: 30%;
+    }
 }

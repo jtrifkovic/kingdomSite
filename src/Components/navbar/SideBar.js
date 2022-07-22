@@ -14,8 +14,9 @@ const SideBar = ({showNav, setShowNav}) => {
     style={{
         transform:`${showNav ? "translateX(0)" : "translateX(100%)"}`,
         transition:"1s ease-in",
-        position:"absolute",
+        position:"fixed",
         zIndex:'1000',
+        minHeight:"100vh",
         top:"0"
         // display:`${showNav ? "block" : "none"}`
     }}
@@ -40,7 +41,7 @@ const SideBar = ({showNav, setShowNav}) => {
             <img src={x} />
         </div>
     </div>
-    <div className='midContentOpen container'>
+    <div className='midContentOpen containerOpen'>
         <NavLink to='/' onClick={() => setShowNav(false)}>
             Home <span>/ 01</span>
         </NavLink>
@@ -54,7 +55,7 @@ const SideBar = ({showNav, setShowNav}) => {
             Contact <span>/ 04 </span>
         </NavLink>
     </div>
-    <div className='botOpen container'>
+    <div className='botOpen containerOpen'>
         <div className='leftBotOpen'>
             <p>
                 Terms of service

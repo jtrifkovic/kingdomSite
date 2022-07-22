@@ -33,9 +33,11 @@ const Navbar = () => {
             </ul>
         </div>
         <div className='language'>
+        <div className='none'>
         <FaGlobe />
         English
         <FaCaretDown />
+        </div>
         <button className='navBtn'>
             Check Availability
             <FaAngleRight />
