@@ -16,6 +16,7 @@ import dashBlue from '../../img/Rectangle 178.svg'
 import bigImg from '../../img/iznad futera.png'
 import Footer from '../../Components/footer/Footer'
 import { useRef } from 'react'
+import Navigator from '../../Components/Navigator'
 const Services = () => {
     const divRef = useRef();
     const topRef = useRef();
@@ -61,21 +62,20 @@ const Services = () => {
         let tempData = [...openText];
         tempData[ind]["isOpened"] = !tempData[ind]["isOpened"];
         setOpenText(tempData)
-    
-    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+    }  
+    const name = "Services"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
   return (
     <>
-    <div className='background-image' ref={topRef}>
+ <div className='header1' ref={topRef}>
+        <div className='headerTextWrapper1'>
+          <h1 className='headerText1'>Our goal is to move <br/>
+our industry forward.</h1>
+     <Navigator name={name}/>
+        </div>
+      </div>
 
-<h1 className='heading'>Our goal is to move <br/> our industry forward </h1>
-
-<div className='transparent'>
-    <h1>Home</h1>
-    <h1><FaAngleRight /></h1>
-    <h1>Services</h1>
-</div>
-
-    </div>
+    
     <div className='main-background'>
        <div className='main-content1'>
        <div className='faqStart'>
@@ -109,8 +109,8 @@ passion at the service.
    <div className='card'>
     <img className="card-image"src={dev} alt="graph"/>
     <div className='card-heading'>
-    <h1>UI & UX DESIGN</h1>
-    <p>UX will allow user interaction with the app or site fast, easy and efficient.UI will make this interaction both aesthetically pleasing and efficient.
+    <h1>DEVELOPMENT</h1>
+    <p>Web application development services using industry leading technologies. Harness the power of modern web frameworks to build progressive web apps that scale.
 </p>
     </div>
    </div>
@@ -119,6 +119,7 @@ passion at the service.
     <div className='card-heading'>
     <h1>OUTSOURCING</h1>
     <p>By outsourcing IT services, any organization can shift its focus towards its core competencies and obtain otherwise unavailable resources.
+
 </p>
     </div>
    </div>

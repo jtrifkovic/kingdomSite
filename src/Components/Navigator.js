@@ -2,9 +2,6 @@ import React from 'react'
 import "../Pages/About/About.css"
 
 const Navigator = ({name}) => {
-
-
-
   return (
     <div>
         <div className='navigator'>
