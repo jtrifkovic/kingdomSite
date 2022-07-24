@@ -167,7 +167,7 @@ passion at the service.
    </div>
    <div className='padding'>
     <Spin>
-   <img className="card-image"src={dev1} alt="graph"/>
+   <img className="card-image1"src={dev1} alt="graph"/>
    </Spin>
   <p> Bootstrap, the world’s most popular framework <br/>
 for building responsive, mobile-first sites </p>
