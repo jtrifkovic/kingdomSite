@@ -37,6 +37,14 @@ a{
     gap: 5px;
 }
 
+.none {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
 .navBtn {
     display: flex;
     align-items: center;
@@ -153,7 +161,7 @@ a{
     }
 
     .botOpen {
-        padding-top: 15%;
+        padding-top: 10%;
     }
 }
 
@@ -175,6 +183,10 @@ a{
     .containerOpen {
         max-width: min(870px, calc(100vw - 100px));
         margin-inline: auto;
+    }
+
+    .botOpen {
+        padding-top: 15%;
     }
 }
 
@@ -206,6 +218,10 @@ a{
         max-width: min(640px, calc(100vw - 100px));
         margin-inline: auto;
     }
+
+    .botOpen {
+        padding-top: 20%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -214,8 +230,12 @@ a{
     }
 
     .containerOpen {
-        max-width: min(540px, calc(100vw - 100px));
+        max-width: min(640px, calc(100vw - 100px));
         margin-inline: auto;
+    }
+
+    .leftBotOpen p {
+        font-size: 0.8rem;
     }
 }
 
@@ -238,8 +258,14 @@ a{
     }
 
     .botOpen {
-        padding-top: 30%;
+        padding-top: 40%;
     }
+}
+
+@media (max-width: 700px) {
+   .engContent-left {
+    display: none;
+   }
 }
 
 @media (max-width: 500px) {
@@ -253,6 +279,7 @@ a{
 
     .midContentOpen a {
         font-size: 2rem;
+        margin-left: 20%;
     }
 
     .leftBotOpen {
@@ -260,7 +287,7 @@ a{
     }
 
     .botOpen {
-        padding-top: 30%;
+        padding-top: 70%;
         flex-direction: column;
     }
 }
@@ -285,6 +312,10 @@ a{
     }
 
     .botOpen {
-        padding-top: 30%;
+        padding-top: 80%;
+    }
+
+    .engContent-right {
+        display: none;
     }
 }

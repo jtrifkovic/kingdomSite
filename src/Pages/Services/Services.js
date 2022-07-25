@@ -17,6 +17,8 @@ import bigImg from '../../img/iznad futera.png'
 import Footer from '../../Components/footer/Footer'
 import { useRef } from 'react'
 import Navigator from '../../Components/Navigator'
+import Slide from 'react-reveal/Slide'
+import Spin from 'react-reveal/Spin'
 const Services = () => {
     const divRef = useRef();
     const topRef = useRef();
@@ -67,11 +69,13 @@ const Services = () => {
     const name = "Services"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
   return (
     <>
- <div className='header1' ref={topRef}>
+ <div className='header1'  ref={topRef}>
         <div className='headerTextWrapper1'>
-          <h1 className='headerText1'>Our goal is to move <br/>
+        <Slide left>
+          <h1 className='headerText1' >Our goal is to move <br/>
 our industry forward.</h1>
      <Navigator name={name}/>
+     </Slide>
         </div>
       </div>
 
@@ -83,7 +87,7 @@ our industry forward.</h1>
                     SKILLS
              </div>
             
-  <h1 className='main-content-heading'>An effective combination of skills and personalities</h1>
+  <h1 className='main-content-heading'>An effective combination <br/> of skills and personalities</h1>
   <h2 className='main-content-heading2'>
   We put our expertise and <br/>
 passion at the service.
@@ -91,7 +95,9 @@ passion at the service.
    </div>
    <div className='card-wrapper'>
    <div className='card'>
+    <Spin>
     <img className="card-image"src={graph} alt="graph"/>
+    </Spin>
     <div className='card-heading'>
     <h1>GRAPHIC DESIGN</h1>
     <p>We will create a visual identity that will be noticed and remembered by everyone.
@@ -99,7 +105,9 @@ passion at the service.
     </div>
    </div>
    <div className='card'>
+    <Spin>
     <img className="card-image"src={ui} alt="graph"/>
+    </Spin>
     <div className='card-heading'>
     <h1>UI & UX DESIGN</h1>
     <p>UX will allow user interaction with the app or site fast, easy and efficient.UI will make this interaction both aesthetically pleasing and efficient.
@@ -107,7 +115,9 @@ passion at the service.
     </div>
    </div>
    <div className='card'>
+    <Spin>
     <img className="card-image"src={dev} alt="graph"/>
+    </Spin>
     <div className='card-heading'>
     <h1>DEVELOPMENT</h1>
     <p>Web application development services using industry leading technologies. Harness the power of modern web frameworks to build progressive web apps that scale.
@@ -115,7 +125,9 @@ passion at the service.
     </div>
    </div>
    <div className='card'>
+    <Spin>
     <img className="card-image"src={graph} alt="graph"/>
+    </Spin>
     <div className='card-heading'>
     <h1>OUTSOURCING</h1>
     <p>By outsourcing IT services, any organization can shift its focus towards its core competencies and obtain otherwise unavailable resources.
@@ -124,7 +136,9 @@ passion at the service.
     </div>
    </div>
    <div className='card'>
+    <Spin>
     <img className="card-image"src={marketing} alt="graph"/>
+    </Spin>
     <div className='card-heading'>
     <h1>DIGITAL MARKETING</h1>
     <p>We will create a visual identity that will be noticed and remembered by everyone.
@@ -132,7 +146,9 @@ passion at the service.
     </div>
    </div>
    <div className='card'>
+    <Spin>
     <img className="card-image"src={ui} alt="graph"/>
+    </Spin>
     <div className='card-heading'>
     <h1>MAINTANCE</h1>
     <p>UX will allow user interaction with the app or site fast, easy and efficient.UI will make this interaction both aesthetically pleasing and efficient.
@@ -150,7 +166,9 @@ passion at the service.
   <h1 className='main-content-heading1'>Responsive <br/> Technology</h1>
    </div>
    <div className='padding'>
-   <img className="card-image"src={dev1} alt="graph"/>
+    <Spin>
+   <img className="card-image1"src={dev1} alt="graph"/>
+   </Spin>
   <p> Bootstrap, the world’s most popular framework <br/>
 for building responsive, mobile-first sites </p>
    </div>

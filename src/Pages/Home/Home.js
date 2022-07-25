@@ -183,16 +183,19 @@ const Home = () => {
     <div className='mountain'>
         <div className='container flex pt150'>
             <div className='leftPart'>
+                <div>
                 <div className='mountServices'>
                     <img src={dashBlue} />
                     SERVICES
                 </div>
                 <div className='mountTitle'>
-                An effective <br />
-                combination <br />
-                of skills and   <br />
+                An effective 
+                combination
+                of skills and  
                 personalities
                 </div>
+                </div>
+                <div className='mt50'>
                 <div className='mountExpertise'>
                 We put our expertise and <br />
                 passion at the service.
@@ -201,6 +204,7 @@ const Home = () => {
                     Check availability
                     <FaAngleRight />
                 </button>
+                </div>
             </div>
             <div className='rightPart'>
                 {boxes.map((item, i) => (
@@ -250,13 +254,13 @@ const Home = () => {
          </div>
     </div>
     <div className='cardsSections'>
-        <div className='container'>
-          <div className='knowledgePointer'>
+        <div className='knowledgeSection'>
+          <div className='knowledgePointerHome'>
             <img src={dashBlue}/>
             KNOWLEDGE
           </div>
-          <h1 className='knowledgeHeading'>We use latest<br/> technologies</h1>
-          <div className='images'>
+          <h1 className='knowledgeHeadingHome'>We use latest<br/> technologies</h1>
+          <div className='imagesHome'>
             <div className='imageHolder'>
               <img src={adobe}/>
             </div>
