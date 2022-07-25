@@ -68,7 +68,7 @@ margin-left: 21.5rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 120vh;
+  
     display: flex;
     justify-content: center;
   
@@ -101,7 +101,7 @@ font-size: 14px;
 .card {
     background-color: #fff;
     display: flex;
-    padding: 50px;
+    padding: 2rem;
     margin-bottom: 2%;
     max-width: 670px;
     border-radius: 10px;
@@ -208,8 +208,10 @@ padding-bottom: 3%;}
                 text-align: center;
             }
             .middle-content {
-          
-              gap: 5%;
+                display: flex;
+                flex-wrap: wrap;
+              justify-content: center;
+              gap: 1%;
             }
             .main-content-heading {
                 font-size: 40px;
@@ -289,6 +291,9 @@ padding-bottom: 3%;}
                     padding-left: 2rem;
                    width: 300px;
                    }
+                   .padding {
+                    margin-top: 3rem; 
+                }
                    .heading {
                     padding-top: 18rem; 
                     padding-left: 5rem;
@@ -297,19 +302,53 @@ padding-bottom: 3%;}
                     font-size: 40px;
                 }
                 .main-content-heading {
-                    font-size: 40px;
+                    font-size: 25px;
                     font-family: Sora;
                     color: #17171B;
                 }
                 .main-content-heading1 { 
                     font-size:35px;
                 }
+                .headerText1{
+                    font-family: Sora;
+                    font-weight: 400;
+                    font-size: 32px;
+                    color: white;
+                }
+                .card-heading h1 {
+                    font-size: 0.6rem;
+                    font-family: Sora;
+                    padding-left: 30px;
+                }
+                .card-heading p {
+                    font-size: 0.6rem;
+                    font-family: Sora;
+                    color: #606060;
+                    padding-left: 30px;
+                }
+                .card {
+                    background-color: #fff;
+                    display: flex;
+                    padding: 2rem;
+                    margin-bottom: 2%;
+                    max-width: 470px;
+                    border-radius: 10px;
+                }
+                .main-content-heading2 {
+                    font-size: 18px;
+                    font-family: Sora;
+                    color: #17171B;
+                    font-weight: lighter;
+                }
             }
-            @media screen and (max-width: 443px) {
-                .main-content1 {
-                   
-                margin-left: 0px;
-                  
-                
-                   
-                   }}
+                @media screen and (max-width: 480px) {
+                    .card {
+                        background-color: #fff;
+                        display: flex;
+                        padding: 2rem;
+                        margin-bottom: 2%;
+                        max-width: 300px;
+                        border-radius: 10px;
+                    }
+                } 
+         
