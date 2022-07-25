@@ -1,24 +1,26 @@
-import React from 'react'
-import "./Services.css"
 import { useState } from 'react'
-import dash from '../../img/Rectangle 178.png'
+import { useRef } from 'react'
+import Slide from 'react-reveal/Slide'
+import Spin from 'react-reveal/Spin'
+import "./Services.css"
+
+// COMPONENTS
+import Footer from '../../Components/footer/Footer'
+import Navigator from '../../Components/Navigator'
+
+// IMAGES
 import graph from '../../img/graph.png'
 import ui from '../../img/uiux-design.png'
 import dev from '../../img/Mask Group 23.png'
 import dev1 from '../../img/Mask Group 22.png'
 import slike from '../../img/slike.png'
 import marketing from '../../img/marketing.png'
-import {FaAngleRight} from 'react-icons/fa'
-import bottomPicture from '../../img/Group 3754.png'
 import minus from '../../img/minus.svg'
 import plus from '../../img/plus.png'
 import dashBlue from '../../img/Rectangle 178.svg'
-import bigImg from '../../img/iznad futera.png'
-import Footer from '../../Components/footer/Footer'
-import { useRef } from 'react'
-import Navigator from '../../Components/Navigator'
-import Slide from 'react-reveal/Slide'
-import Spin from 'react-reveal/Spin'
+
+
+
 const Services = () => {
     const divRef = useRef();
     const topRef = useRef();

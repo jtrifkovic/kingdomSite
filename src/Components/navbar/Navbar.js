@@ -1,6 +1,10 @@
 import {useState} from 'react'
-import SideBar from './SideBar'
 import './Navbar.css'
+
+// COMPONENTS 
+import SideBar from './SideBar'
+
+// IMAGES
 import logo from '../../img/logo.png'
 import burger from '../../img/menu-icon.png'
 import {NavLink} from 'react-router-dom'
@@ -30,6 +34,7 @@ const Navbar = () => {
             <NavLink className="navLink" to="/services" >
                 Services
             </NavLink>
+         
             </ul>
         </div>
         <div className='language'>
@@ -38,10 +43,12 @@ const Navbar = () => {
         English
         <FaCaretDown />
         </div>
-        <button className='navBtn'>
-            Check Availability
+        <NavLink to="/contact" >
+          <button className='navBtn'>
+           Check Availability
             <FaAngleRight />
         </button>
+        </NavLink>
         </div>
         <div className='burger' onClick={() => setShowNav(true)}>
            <img src={burger} />

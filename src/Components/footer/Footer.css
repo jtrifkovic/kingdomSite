@@ -202,7 +202,11 @@
 
     .leftPartTwo {
         gap: 4rem;
-        padding-top: 50px;
+        padding-top: 20px;
+    }
+
+    .leftPartTwo p {
+        font-size: 0.8rem;
     }
 
     .fotSocCrc {
@@ -215,5 +219,9 @@
 
     .rightBot {
         font-size: 0.8rem;
+    }
+
+    .brBot {
+        padding-bottom: 2rem;
     }
 }

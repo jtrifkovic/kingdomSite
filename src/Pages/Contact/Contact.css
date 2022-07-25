@@ -1,0 +1,46 @@
+.header2{
+    background: url(/src/img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -120px;
+    width: 100%;   
+}
+.mid-wrapper {
+padding: 10% 20%;
+}
+.mid-wrapper h1 {
+  font-size: 60px;
+  font-family: Sora;
+  padding-top: 3%;
+  font-weight: 400;
+    }
+.input-holder {
+    display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 0 auto;
+  
+ 
+}
+.contact-input {
+    border: none;
+    padding-bottom: 3%;
+    background-color: none;
+    padding-top: 2%;
+    width: 100%
+}
+.input-number {
+   color: #606060;
+   padding-right: 2%;
+   font-size: 14px;
+ 
+}
+.contact-label {
+    font-size: 18px;
+    font-family: Sora;
+
+}
+::placeholder {
+    font-size: 18px;
+    font-family: Sora;
+}

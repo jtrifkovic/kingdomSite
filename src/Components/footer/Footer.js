@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+
+// ICONS
 import {FaAngleRight} from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {FaFacebookF} from 'react-icons/fa'

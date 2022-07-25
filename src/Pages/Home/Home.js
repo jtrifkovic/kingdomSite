@@ -1,8 +1,14 @@
 import {useState, useRef} from 'react'
 import {Link} from 'react-router-dom'
+import Slide from 'react-reveal/Slide'
+import Spin from 'react-reveal/Spin'
 import './Home.css'
-import {FaAngleRight} from 'react-icons/fa'
-import dash from '../../img/Rectangle 178.png'
+
+// COMPONENTS 
+import Footer from '../../Components/footer/Footer'
+
+// IMAGES
+import dash from '../../img/whiteDash.png'
 import dashBlue from '../../img/Rectangle 178.svg'
 import downDash from '../../img/arrow.png'
 import leftDash from '../../img/Path 192.svg'
@@ -24,9 +30,8 @@ import google from "../../img/google.png"
 import react from "../../img/react.png"
 import java from "../../img/java.png"
 import bigImg from '../../img/iznad futera.png'
-import Footer from '../../Components/footer/Footer'
-import Slide from 'react-reveal/Slide'
-import Spin from 'react-reveal/Spin'
+import {FaAngleRight} from 'react-icons/fa'
+
 
 const Home = () => {
     const [text, setText] = useState(true)
@@ -261,34 +266,34 @@ const Home = () => {
           </div>
           <h1 className='knowledgeHeadingHome'>We use latest<br/> technologies</h1>
           <div className='imagesHome'>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={adobe}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={angular}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={cPlus}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={cSharp}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={node}/>
             </div> 
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={javascript}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={css}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={google}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={react}/>
             </div>
-            <div className='imageHolder'>
+            <div className='imageHolder' alt="pic">
               <img src={java}/>
             </div>
     </div>
