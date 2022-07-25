@@ -74,16 +74,11 @@ margin-left: 21.5rem;
   
 }
 .main-content {
- padding-top: 5rem ;
- padding-left: 13rem;
-width: 700px;
+    padding-top: 3%;
 }
 .main-content1 {
     padding-top: 15rem ;
-margin-left: -100px;
-   width: 700px;
-
-   }
+ }
 .skills {
 font-size: 14px;
     color: #2272EC;
@@ -95,6 +90,7 @@ font-size: 14px;
     font-size: 60px;
     font-family: Sora;
     color: #17171B;
+    max-width: 500px;
 }
 .main-content-heading2 {
     font-size: 24px;
@@ -139,13 +135,15 @@ font-size: 14px;
     padding-left: 30px;
 }
 .main-content-heading1 {
-    font-size: 40px;
+    font-size: 60px;
     font-family: Sora;
     color: #17171B;
 }
 .middle-content {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
 }
 .padding {
    margin-top: 8rem;
@@ -164,30 +162,34 @@ font-size: 14px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:  100vh
+   
 }
 .content-wrapper {
     margin: 0 auto;
     max-width: 65%;
    padding-top: 10%;
+
 }
 .content-wrapper h1 {
     color: #fff;
-font-size: 20px;}
+font-size: 20px;
+padding-bottom: 3%;}
     .content-wrapper h2 {
         color: #fff;
+        padding-bottom: 3%;
     font-size:60px}
         .content-wrapper h3 {
             color: #fff;
         font-size:85px;
+        padding-bottom: 5%;
     }
 
     @media screen and (max-width: 1378px) {
         .main-content1 {
            
                 padding-top: 5rem ;
-                padding-left: 5rem;
-               width: 500px;
+              
+             
                }
         }
         @media screen and (max-width: 1032px) {
@@ -205,6 +207,10 @@ font-size: 20px;}
             .main-content1 {
                 text-align: center;
             }
+            .middle-content {
+          
+              gap: 5%;
+            }
             .main-content-heading {
                 font-size: 40px;
                 font-family: Sora;
@@ -221,10 +227,10 @@ font-size: 20px;}
             font-size: 20px;}
                 .content-wrapper h2 {
                     color: #fff;
-                font-size:40px}
+                font-size:25px}
                     .content-wrapper h3 {
                         color: #fff;
-                    font-size:55px;
+                    font-size:40px;
                 }
             .heading {
                 padding-top: 15rem;
@@ -259,11 +265,7 @@ font-size: 20px;}
                  align-items: center;
                
              }
-             .main-content {
-                padding-top: 5rem ;
-                padding-left: 9rem;
-               width: 500px;
-               }
+           
             .card-image {
                 width:71px;
                 height:50px;
@@ -299,10 +301,8 @@ font-size: 20px;}
                     font-family: Sora;
                     color: #17171B;
                 }
-                .main-content-heading1 {
-                    font-size: 30px;
-                    font-family: Sora;
-                    color: #17171B;
+                .main-content-heading1 { 
+                    font-size:35px;
                 }
             }
             @media screen and (max-width: 443px) {
