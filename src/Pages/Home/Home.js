@@ -123,10 +123,10 @@ const Home = () => {
             <FaAngleRight />
         </button>
         </Link>
-        <button className='circleBtn'  onClick={() => {
+        <button className='circleBtn' onClick={() => {
           divRef.current.scrollIntoView({ behavior: "smooth" });
         }}>
-            <img src={downDash} />
+            <img src={downDash}  />
         </button>
         </Slide>
     </div>
@@ -149,18 +149,18 @@ const Home = () => {
            <div className='cngText'>
             {text &&
              <div> 
-             We want to improve our knowledge in the future <br />
-            and to work on many more inspiring projects,   <br />
-            We do not want mass production but a dedicated, <br />
-            professional approach  to every client.
+                We want to improve our knowledge in the future <br />
+                and to work on many more inspiring projects,   <br />
+                We do not want mass production but a dedicated, <br />
+                professional approach  to every client.
             </div>
             }
             {!text &&
             <div> 
-            Hocemo batana moj da se impruvamo onda sad <br />
-            ako ne bude moglo necu odgovarati za svoje,   <br />
-            Postupke batana moja jesi li me cuo, <br />
-            professional approach  to every client.
+                Lorem Ipsum is simply dummy text of the future <br/>
+                Lorem Ipsum has been the industry's <br/>
+                There are many variations of passages of<br/>
+                Lorem Ipsum available, but the majority
             </div>
             }
             {text &&
