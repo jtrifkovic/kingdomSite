@@ -353,7 +353,7 @@
         padding-top: 20%;
     }
 
-    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeading {
+    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeadingHome {
         font-size: 3rem !important;
     }
 
@@ -369,7 +369,7 @@
         margin-left: 0;
     }
 
-    .knowledgePointer{
+    .knowledgePointerHome{
         padding: 50px 0px 0px 0px !important;
     }
 
@@ -393,7 +393,7 @@
         padding-left: 155;
     }
 
-    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeading {
+    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeadingHome {
         font-size: 2.5rem !important;
     }
 
@@ -428,11 +428,11 @@
 }
 
 @media (max-width: 860px) {
-    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeading {
+    .aboutTitleNew, .mountTitle, .faqTitle, .knowledgeHeadingHome {
         font-size: 2rem !important ;
     }
 
-    .aboutTop, .mountServices, .faqStart, .knowledgePointer {
+    .aboutTop, .mountServices, .faqStart, .knowledgePointerHome {
         font-size: 0.8rem ;
     }
 
