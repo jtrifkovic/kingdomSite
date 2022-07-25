@@ -66,6 +66,7 @@ p{
 }
 .aboutSection{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 173px 0 155px 0;
 }
@@ -89,6 +90,7 @@ p{
 
 .aboutLineHolder{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .missionText, .knowledgeHeading{
@@ -134,6 +136,7 @@ p{
 
 .missionArrowWrapper{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 }
@@ -146,6 +149,7 @@ p{
     width: 100%;
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -162,6 +166,7 @@ p{
     color: white;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 21px;
     padding-bottom: 21px;
@@ -187,6 +192,7 @@ p{
 
 .cardsHolder{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -257,6 +263,7 @@ p{
     color:#2272EC;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -271,6 +278,7 @@ p{
     background-color: white;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -309,6 +317,7 @@ p{
     color: #2272EC;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
 }
@@ -344,6 +353,7 @@ p{
 
 .userInfoWrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 50px;
 }
@@ -384,6 +394,7 @@ p{
 
 .userInfoHolder{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -394,6 +405,9 @@ p{
     padding-top: 20%;
     margin-top: -310px;
 }
+.underExploreTab{
+    display: flex;
+}
 
 
 /* ======================================================================================
@@ -401,10 +415,144 @@ p{
    ======================================================================================
 */
 
+@media (max-width: 750px) {
+    .headerText, 
+    .missionText, 
+    .servicesHeading, 
+    .knowledgeHeading{
+        font-size: 2rem !important;
+    }
+    .missionArrowWrapper{
+        flex-direction: row-reverse;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .arrowRight{
+        margin: 0;
+    }
+    .aboutSection{
+        justify-content: flex-start;
+        flex-wrap: wrap !important;
+    }
+    .missionHolder{
+        margin: 0;
+    }
+    .largeLogo{
+        padding: 0;
+    }
+    .aboutWrapper, 
+    .services, 
+    .cards, 
+    .underCardsSection,
+    .knowledgeSection,
+    .headerTextWrapper{
+    margin: 0 10% 0 10%;
+    }
+    .cardsHolder{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .underCardsHeadingWrapper{
+        margin: 0 !important;
+    }
+    .applyNow{
+        flex-wrap: nowrap;
+        padding-right: 2%;
+    }
+    .applySpan{
+        padding: 0;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .blueDot{
+        margin-left: 2%;
+    }
+    .underExploreTab{
+        display: flex;
+    }
+    .exploreText{
+        font-size: 13px;
+        width: 50%;
+    }
+    .cardImage{
+        padding-left: 1%;
+    }
+    .underCardsSpan, .userJob   {
+        font-size: 13px;
+    }
+    .pr{
+       padding-right: 80px; 
+    }
+    .secondPr{
+        padding-right: 50px;
+    }
+    .quatermarkWrapper{
+        margin: 0;
+        width: 100%;
+    }
+    .qoutes{
+        margin: 0;
+        width: 35%;
+    }
+    .quatermarkHolder{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10% 0 10%;
+    }
+    .blueHeading{
+        padding: 10% 0 10% 0;
+    }
+    .blue{
+        margin-top: 0;
+    }
+    .userName{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width: 1100px) {
+    .quatermarkWrapper{
+        width: 100%;
+        margin-top: 0;
+    }
+    .backgroundWhite{
+        padding: 0 0 25% 0;
+    }
+    .qoutes{
+        margin-top: 0;
+    }
+    .quatermarkHolder{
+        margin: 0 10% 0 10%;
+    }
+    .blue{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .aboutSection{
+        flex-wrap: nowrap;
+    }
+    .cardsHolder{
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
+    .cardImage{
+        padding-left: 2%;
+    }
+    .underExploreTab{
+        display: flex;
+    }
+    .applyNow{
+        flex-wrap: nowrap;
+    }
+}
+
+    
+
 @media screen and (max-width: 1415px) {
     .secondLogo{
         padding: 0;
     }
+    
   
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) { 
@@ -489,12 +637,11 @@ p{
         height: 160px;
         width: 277px;
     }
+    .underExploreTab{
+        display: flex;
+    }
 } 
 
-@media screen and (min-width: 1571px) and (max-width: 1614px) { 
-   
-
-}
 @media screen and (min-width: 1650px) and (max-width: 1750px) { 
     .headerTextWrapper{
         padding: 233px 0 0 3%;
@@ -539,5 +686,7 @@ p{
     .headerTextWrapper{
         padding: 233px 0 0 13%;
     }
+   
 
 }
+

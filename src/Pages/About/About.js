@@ -239,32 +239,42 @@ const name = "About Us"
             </div>
             <h1 className='knowledgeHeading'>Explore available<br/> positions</h1>
             <div className='exploreTab'>
-              <div><img className='blueDot' src={blueDot}/>
-              <span className='exploreText'>JUNIOR FRONTEND ENGINEER</span></div>
+              <div className='underExploreTab'>
+                <img className='blueDot' src={blueDot}/>
+                <div className='spanFlex'><span className='exploreText secondPr'>JUNIOR FRONTEND ENGINEER</span></div>
+              
+              </div>
               <div className='applyNow'>
                 <span className='applySpan'>Apply now</span>
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
             <div className='exploreTab'>
-              <div><img className='blueDot' src={blueDot}/>
-              <span className='exploreText'>EXPERIENCED FRONTEND ENGINEER</span></div>
+              <div className='underExploreTab'>
+                <img className='blueDot' src={blueDot}/>
+                <div className='spanFlex'><span className='exploreText'>EXPERIENCED FRONTEND ENGINEER</span></div>
+              
+              </div>
               <div className='applyNow'>
                 <span className='applySpan'>Apply now</span>
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
             <div className='exploreTab'>
-              <div><img className='blueDot' src={blueDot}/>
-              <span className='exploreText'>JUNIOR JAVA ENGINEER</span></div>
+              <div className='underExploreTab'>
+                <img className='blueDot' src={blueDot}/>
+                <div className='spanFlex'> <span className='exploreText pr'>JUNIOR JAVA ENGINEER</span></div>
+              </div>
               <div className='applyNow'>
                 <span className='applySpan'>Apply now</span>
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
             <div className='exploreTab'>
-              <div><img className='blueDot' src={blueDot}/>
-              <span className='exploreText'>EXPERIENCED FRONTEND ENGINEER</span></div>
+              <div className='underExploreTab'>
+                <img className='blueDot' src={blueDot}/>
+                <div><span className='exploreText'>EXPERIENCED FRONTEND ENGINEER</span></div>
+              </div>
               <div className='applyNow'>
                 <span className='applySpan'>Apply now</span>
                 <FaAngleRight className="faRight"/>
