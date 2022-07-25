@@ -1,12 +1,13 @@
-import React from 'react'
-import {NavLink} from 'react-router-dom'
-import {FaGlobe} from 'react-icons/fa'
-import {FaCaretDown} from 'react-icons/fa'
+// IMAGES
+import logo from '../../img/logo.png'
 import x from '../../img/menu-icon.svg'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {FaFacebookF} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
-import logo from '../../img/logo.png'
+import {NavLink} from 'react-router-dom'
+import {FaGlobe} from 'react-icons/fa'
+import {FaCaretDown} from 'react-icons/fa'
+
 
 const SideBar = ({showNav, setShowNav}) => {
   return (

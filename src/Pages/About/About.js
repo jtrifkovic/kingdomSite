@@ -1,9 +1,14 @@
-import React from 'react'
+import { useState, useRef } from 'react';
+import Slide from 'react-reveal/Slide'
 import "./About.css";
+
+// COMPONENTS 
+import Footer from "../../Components/footer/Footer"
+import Navigator from '../../Components/Navigator';
+
+// IMAGES
 import whiteDash from '../../img/whiteDash.png'
 import dashBlue from '../../img/Rectangle 178.svg'
-import {FaAngleRight} from 'react-icons/fa'
-import {FaAngleLeft} from 'react-icons/fa'
 import card1 from "../../img/Group 3731.png"
 import card2 from "../../img/Group 3732.png"
 import card3 from "../../img/Group 3733.png"
@@ -36,21 +41,14 @@ import express from "../../img/express-logo.png"
 import blueDot from "../../img/blueDot.svg"
 import quotes from "../../img/quotes.png"
 import profileIcon from "../../img/profile-icon.png"
-
-import Footer from "../../Components/footer/Footer"
-import { useState, useRef } from 'react';
-import Slide from 'react-reveal/Slide'
-import Navigator from '../../Components/Navigator';
-
-
+import {FaAngleRight} from 'react-icons/fa'
+import {FaAngleLeft} from 'react-icons/fa'
 
 
 const About = () => {
 const [text, setText] = useState(true);
 const [secondText, setSecondText] = useState(true);
-
 const topRef = useRef();
-
 const name = "About Us"
 
   return (

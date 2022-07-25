@@ -1,6 +1,10 @@
 import {useState} from 'react'
-import SideBar from './SideBar'
 import './Navbar.css'
+
+// COMPONENTS 
+import SideBar from './SideBar'
+
+// IMAGES
 import logo from '../../img/logo.png'
 import burger from '../../img/menu-icon.png'
 import {NavLink} from 'react-router-dom'

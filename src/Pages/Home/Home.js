@@ -1,7 +1,13 @@
 import {useState, useRef} from 'react'
 import {Link} from 'react-router-dom'
+import Slide from 'react-reveal/Slide'
+import Spin from 'react-reveal/Spin'
 import './Home.css'
-import {FaAngleRight} from 'react-icons/fa'
+
+// COMPONENTS 
+import Footer from '../../Components/footer/Footer'
+
+// IMAGES
 import dash from '../../img/whiteDash.png'
 import dashBlue from '../../img/Rectangle 178.svg'
 import downDash from '../../img/arrow.png'
@@ -24,9 +30,8 @@ import google from "../../img/google.png"
 import react from "../../img/react.png"
 import java from "../../img/java.png"
 import bigImg from '../../img/iznad futera.png'
-import Footer from '../../Components/footer/Footer'
-import Slide from 'react-reveal/Slide'
-import Spin from 'react-reveal/Spin'
+import {FaAngleRight} from 'react-icons/fa'
+
 
 const Home = () => {
     const [text, setText] = useState(true)
