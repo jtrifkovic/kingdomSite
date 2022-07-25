@@ -52,7 +52,7 @@ const SideBar = ({showNav, setShowNav}) => {
         <NavLink to='/services' onClick={() => setShowNav(false)}>
             Services <span>/ 03</span>
         </NavLink>
-        <NavLink to='' onClick={() => setShowNav(false)}>
+        <NavLink to='/contact' onClick={() => setShowNav(false)}>
             Contact <span>/ 04 </span>
         </NavLink>
     </div>

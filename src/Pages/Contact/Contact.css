@@ -61,6 +61,8 @@ padding: 8% 20%;
     border: none;
     color: #fff;
     margin-top: 10%;
+
+    cursor: pointer;
     
 }
 .arrow {

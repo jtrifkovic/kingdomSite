@@ -43,7 +43,7 @@ const Navbar = () => {
         English
         <FaCaretDown />
         </div>
-        <NavLink to="/contact" >
+        <NavLink className="navButton" to="/contact" >
           <button className='navBtn'>
            Check Availability
             <FaAngleRight />
