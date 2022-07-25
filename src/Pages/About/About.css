@@ -262,7 +262,7 @@ p{
 
 .backgroundWhite{
     background-color: #F2F5F9;
-    padding:0px 0px 20% 11%;
+    padding:0px 0px 20% 0%;
 }
 
 .imageHolder{
@@ -278,6 +278,8 @@ p{
 .images{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     gap: 20px;
 }
 
@@ -399,7 +401,18 @@ p{
    ======================================================================================
 */
 
-
+@media screen and (max-width: 1415px) {
+    .secondLogo{
+        padding: 0;
+    }
+  
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) { 
+    .footerTitl h1{
+        padding-top: 35px;
+        font-size: 3rem;
+    }
+}
 
 @media screen and (max-width: 1499px) {
     .underCardsHeadingWrapper{
@@ -421,36 +434,67 @@ p{
     .missionText{
         font-size: 50px;
     }
-
-}
-@media screen and (max-width: 15340px) {
-    .missionText{
-        font-size: 50px;
+    .loremText{
+        font-size: 22px;
     }
+
+    .knowledgePointer{
+        padding: 10% 0 0 0 ;
+    }
+
+    .quatermarkWrapper{
+        margin-top: -17%;
+    }
+    .secondLogo{
+        padding: 0;
+    }
+    .underCardsHeadingWrapper{
+        margin-left: 60px;
+    }
+
 }
 
 
+@media screen and (max-width: 1570px) {
 
-@media screen and (max-width: 1670px) {
-    .servicesHeading{
-        font-size: 50px;
+    .servicesHeading, .missionText, .knowledgeHeading{
+        font-size: 43px;
     }
     .knowledgeSection{
         margin: 0 14% 0 15%;
     }
-    .backgroundWhite{
-        padding: 0px 0px 20% 0%;
+  
+    .images{
+        justify-content: center;
     }
+    .headerText{
+        font-size: 50px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .cardsHeading{
+        font-size: 50px;
+    }
+    .underCardsSection{
+        padding-bottom: 7%;
+    }
+    .services{
+        padding-top: 7%;
+    }
+    .aboutSection{
+        margin: 10% 0 10% 0;
+    }
+    .cardsHolder{
+        height: 160px;
+        width: 277px;
+    }
+} 
+
+@media screen and (min-width: 1571px) and (max-width: 1614px) { 
+   
 
 }
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1650px) and (max-width: 1750px) { 
     .headerTextWrapper{
         padding: 233px 0 0 3%;
@@ -464,9 +508,6 @@ p{
     .headerTextWrapper{
         padding: 233px 0 0 4%;
     }
-    .backgroundWhite{
-        padding: 0px 0px 20% 0%;
-    }
 
     .images{
         justify-content: center;
@@ -474,9 +515,7 @@ p{
 }
 
 @media screen and (min-width: 1900px) and (max-width: 2050px) { 
-    .backgroundWhite{
-        padding: 0px 0px 20% 7%;
-    }
+   
 
     .headerTextWrapper{
         padding: 233px 0 0 6%;
