@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Footer.css'
 
 // ICONS
@@ -17,10 +18,12 @@ const Footer = ({divRef, topRef}) => {
             <h1>Let's create <br />
                 something awesome.
             </h1>
+            <Link to='/contact'>
             <button className='footBtn'>
                 Challenge us
                 <FaAngleRight />
             </button>
+            </Link>
         </div>
         <div className='footerSoc'>
             <div className='leftPartPop'>

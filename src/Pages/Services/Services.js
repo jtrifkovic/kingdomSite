@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import Slide from 'react-reveal/Slide'
 import Spin from 'react-reveal/Spin'
 import "./Services.css"

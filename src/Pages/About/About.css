@@ -301,6 +301,7 @@ p{
     justify-content: space-between;
 
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .blueDot{

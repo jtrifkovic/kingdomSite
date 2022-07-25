@@ -210,10 +210,12 @@ const Home = () => {
                 We put our expertise and <br />
                 passion at the service.
                 </div>
+                <Link to='/contact'>
                 <button className='mountBtn'>
                     Check availability
                     <FaAngleRight />
                 </button>
+                </Link>
                 </div>
             </div>
             <div className='rightPart'>

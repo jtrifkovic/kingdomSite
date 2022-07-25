@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { Link } from 'react-router-dom'
 import Slide from 'react-reveal/Slide'
 import "./About.css";
 
@@ -243,6 +244,7 @@ const name = "About Us"
             KNOWLEDGE
             </div>
             <h1 className='knowledgeHeading'>Explore available<br/> positions</h1>
+            <Link to='/contact'>
             <div className='exploreTab'>
               <div className='underExploreTab'>
                 <img className='blueDot' src={blueDot}/>
@@ -254,6 +256,8 @@ const name = "About Us"
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
+            </Link>
+            <Link to='/contact'>
             <div className='exploreTab'>
               <div className='underExploreTab'>
                 <img className='blueDot' src={blueDot}/>
@@ -265,6 +269,8 @@ const name = "About Us"
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
+            </Link>
+            <Link to='/contact'>
             <div className='exploreTab'>
               <div className='underExploreTab'>
                 <img className='blueDot' src={blueDot}/>
@@ -275,6 +281,8 @@ const name = "About Us"
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
+            </Link>
+            <Link to='/contact'>
             <div className='exploreTab'>
               <div className='underExploreTab'>
                 <img className='blueDot' src={blueDot}/>
@@ -285,6 +293,7 @@ const name = "About Us"
                 <FaAngleRight className="faRight"/>
               </div>
             </div>
+            </Link>
          </div>
          </div>
          </div>

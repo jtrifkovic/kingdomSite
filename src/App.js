@@ -9,12 +9,14 @@ import Services from "./Pages/Services/Services"
 
 // COMPONENTS 
 import Navbar from './Components/navbar/Navbar';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 function App() {
  
   return (
     <Router>
+      <ScrollToTop>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -22,6 +24,7 @@ function App() {
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
+      </ScrollToTop>
     </Router>
   );
 }
