@@ -35,7 +35,7 @@ const SideBar = ({showNav, setShowNav}) => {
             <div className='engContent-right'>
                 <a className='fotSocCrcOpen ' href='#'><FaFacebookF /></a>
                 <a className='fotSocCrcOpen ' href='#'><FaInstagram /></a>
-                <a className='fotSocCrcOpen ' href='#'><FaLinkedinIn /></a>
+                <a className='fotSocCrcOpen ' href='https://www.linkedin.com/company/kingdomdoo/' target="_blank"><FaLinkedinIn /></a>
             </div>
         </div>
         <div className='xOpen' onClick={() => setShowNav(false)}>

@@ -30,9 +30,9 @@ const Footer = ({divRef, topRef}) => {
             </p>
             </div>
             <div className='rightPartPop'>
-                <a className='fotSocCrc active' href='#'><FaFacebookF /></a>
+                <a className='fotSocCrc active' href='#' ><FaFacebookF /></a>
                 <a className='fotSocCrc ' href='#'><FaInstagram /></a>
-                <a className='fotSocCrc ' href='#'><FaLinkedinIn /></a>
+                <a className='fotSocCrc ' href='https://www.linkedin.com/company/kingdomdoo/' target="_blank"><FaLinkedinIn /></a>
             </div>
         </div>
         <div className='leftPartTwo pt25'>
