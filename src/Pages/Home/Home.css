@@ -408,8 +408,16 @@
     .cngText{
         font-size: 1rem;
     }
+}
 
+@media (max-width: 970px) {
+    .knowledgePointerHome {
+        margin-left: 18%;
+    }
 
+    .knowledgeHeadingHome {
+        margin-left: 18%;
+    }
 }
 
 @media (max-width: 960px) {
@@ -447,6 +455,14 @@
     .boxHold {
         padding: 1.5rem 2.5rem 1.5rem 1.5rem;
     }
+
+    .knowledgePointerHome {
+        margin-left: 12%;
+    }
+
+    .knowledgeHeadingHome {
+        margin-left: 12%;
+    }
 }
 
 @media (max-width: 750px) {
@@ -476,6 +492,14 @@
         flex-direction: column;
     }
 
+    .aboutTop {
+        margin-left: 0;
+    }
+
+    .aboutTitleNew {
+        margin-left: 0;
+    }
+
     .boxHold {
         margin-left: 30px;
     }
@@ -491,7 +515,7 @@
     }
 
     .textBtns {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     .cngText{
@@ -540,7 +564,7 @@
     }
 
     .textBtns {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     .cngText{
@@ -603,13 +627,5 @@
 
     .boxTitle {
         font-size: 0.8rem;
-    }
-
-    .aboutTitleNew {
-        margin-left: 3rem;
-    }
-
-    .cardsSections {
-        padding-left: 40px;
     }
 }
