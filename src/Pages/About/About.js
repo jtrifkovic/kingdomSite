@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css";
-import dash from '../../img/Rectangle 178.png'
+import whiteDash from '../../img/whiteDash.png'
 import dashBlue from '../../img/Rectangle 178.svg'
 import {FaAngleRight} from 'react-icons/fa'
 import {FaAngleLeft} from 'react-icons/fa'
@@ -101,7 +101,7 @@ const name = "About Us"
       <div className='servicesWrapper'>
           <div className='services'>
             <div className='servicesHolder'>
-              <img src={dash}/>
+              <img src={whiteDash}/>
               SERVICES
             </div>
             <h1 className='servicesHeading'>Since 2011, we have provided amazing <br/>
