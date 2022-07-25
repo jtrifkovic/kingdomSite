@@ -255,12 +255,12 @@ const Home = () => {
     </div>
     <div className='cardsSections'>
         <div className='knowledgeSection'>
-          <div className='knowledgePointer'>
+          <div className='knowledgePointerHome'>
             <img src={dashBlue}/>
             KNOWLEDGE
           </div>
-          <h1 className='knowledgeHeading'>We use latest<br/> technologies</h1>
-          <div className='images'>
+          <h1 className='knowledgeHeadingHome'>We use latest<br/> technologies</h1>
+          <div className='imagesHome'>
             <div className='imageHolder'>
               <img src={adobe}/>
             </div>
