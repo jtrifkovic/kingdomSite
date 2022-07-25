@@ -32,32 +32,36 @@ const Services = () => {
         },
         {
             title:"HOW LONG DOES IT TAKE TO BUILD A WEBSITE?",
-            text:`Since 2011, we have provided amazing solutions for enterprises of all sizes. We believe that our success is linked to the success of our clients. We aim to establish a long-term business relationship.`,
+            text:`This completely depends on what you need. It takes longer to build
+            a 1000 page megasite than a smaller eight page brochure website.
+            .`,
             isOpened: false
         },
         {
             title:"WHAT SIZE COMPANIES DO YOU PRODUCE WEB DESIGNS FOR?",
-            text:`Since 2011, we have provided amazing solutions for enterprises of all sizes. We believe that our success is linked to the success of our clients. We aim to establish a long-term business relationship.`,
+            text:`We like to work with all sorts and sizes of businesses and individuals, and we bring the same skills used to support our celebrity and big business clients to the work we do for smaller clients. We’re just as keen to work with small businesses as we are large ones, and as a local firm we’re ideally placed to understand the needs of growing organisations.
+            `,
             isOpened: false
         },
         {
             title:"DO YOU REDISIGN EXISTING WEBSITES?",
-            text:`Since 2011, we have provided amazing solutions for enterprises of all sizes. We believe that our success is linked to the success of our clients. We aim to establish a long-term business relationship.`,
+            text:`We certainly can do! It’s important to approach website redesignssensitively to make sure your reasons for redesigning are valid. This will ensure the project is an overall success from your ROI point of view.`,
             isOpened: false
         },
         {
             title:"DO YOU WORK INTERNATIONALLY?",
-            text:`Since 2011, we have provided amazing solutions for enterprises of all sizes. We believe that our success is linked to the success of our clients. We aim to establish a long-term business relationship.`,
+            text:`Of course! With the advent of online conference tools such as Zoom, appear.in, and of course Skype, just to name a few, it makes working with businesses anywhere in the world straight forward enough.
+            `,
             isOpened: false
         },
         {
             title:"WILL MY WEBSITE WORK ON SMART PHONE AND TABLET?",
-            text:`Since 2011, we have provided amazing solutions for enterprises of all sizes. We believe that our success is linked to the success of our clients. We aim to establish a long-term business relationship.`,
+            text:`It most certainly will! More people are accessing the web via small screens than ever, and the trend is likely to carry on. If your site doesn’t display or work properly on a mobile or tablet screen, you risk losing a big chunk of your potential audience. It means mobile responsive web design is essential these days. Every website we create is mobile responsive.`,
             isOpened: false
         },
         {
             title:"CAN U HELP ME RANK HIGH IN GOOGLE?",
-            text:`Since 2011, we have provided amazing solutions for enterprises of all sizes. We believe that our success is linked to the success of our clients. We aim to establish a long-term business relationship.`,
+            text:`A page one position in the Google search results is like gold dust. Not so long ago it was relatively easy to achieve. These days it’s a lot more challenging, and getting it wrong can affect your reputation. Thankfully we have all the SEO tools and know-how to maximise your chances and some happy customers to vouch for us.`,
             isOpened: false
         }
     ])
@@ -196,12 +200,12 @@ about the people who are crossing it.”</h2>
             </div>
             <div className='faqOpen-holder'>
                 {openText.map((text, i) => (
-                    <div className='faqOpen' key={i}>
+                    <div className='faqOpen' key={i}  onClick={() => showText(i)}>
                     <div className='clsHold'>
                     <div className='faqSect'>
                         {text.title}
                     </div>
-                    <div className='plsMin' onClick={() => showText(i)} >
+                    <div className='plsMin' >
                         <img src={text.isOpened ? `${minus}` : `${plus}`} />
                     </div>
                     </div>

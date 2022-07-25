@@ -172,14 +172,17 @@ font-size: 14px;
 }
 .content-wrapper h1 {
     color: #fff;
+    font-family: Sora;
 font-size: 20px;
 padding-bottom: 3%;}
     .content-wrapper h2 {
         color: #fff;
+        font-family: Sora;
         padding-bottom: 3%;
     font-size:60px}
         .content-wrapper h3 {
             color: #fff;
+            font-family: Sora;
         font-size:85px;
         padding-bottom: 5%;
     }

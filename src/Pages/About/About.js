@@ -75,16 +75,23 @@ const name = "About Us"
           </div>
           <div className='missionHolder'>
           <div className='misssionHeadTitle'>
-            <h4>OUR MISSION</h4>
+            <h4>
+              {text && "OUR MISSION" }
+              {!text && "OUR VISION"}
+            </h4>
           </div>
-          {text && <p className='missionParagraph'>We want to improve our knowledge in the future <br/>
-              and to work on many more inspiring projects,<br/> 
+          {text && <p className='missionParagraph'>
+               Effective work is our priority, and efficiency comes<br/>
+                with motivation, because we do what we love. <br/>
+                 We perform your requests quickly  and with high<br/>
+               quality, respecting the pre-agreed deadlines.
+              </p>}
+          {!text && <p className='missionParagraph'>
+              We want to improve our knowledge in the future<br/>
+              and to work on many more inspiring projects, <br/>
               We do not want mass production but a dedicated,<br/>
-              professional approach  to every client.</p>}
-          {!text && <p className='missionParagraph'>Lorem Ipsum is simply dummy text of the future <br/>
-              Lorem Ipsum has been the industry's <br/>
-              There are many variations of passages of<br/>
-              Lorem Ipsum available, but the majority</p>}
+               professional approach  to every client.
+              </p>}
               <div className='missionPagination'>
                {text && <div><b>01</b> / 02</div> }
                {!text && <div>01/ <b>02</b></div> }
