@@ -123,10 +123,10 @@ const Home = () => {
             <FaAngleRight />
         </button>
         </Link>
-        <button className='circleBtn'  onClick={() => {
+        <button className='circleBtn' onClick={() => {
           divRef.current.scrollIntoView({ behavior: "smooth" });
         }}>
-            <img src={downDash} />
+            <img src={downDash}  />
         </button>
         </Slide>
     </div>
