@@ -6,7 +6,7 @@
     width: 100%;   
 }
 .mid-wrapper {
-padding: 10% 20%;
+padding: 8% 20%;
 }
 .mid-wrapper h1 {
   font-size: 60px;
@@ -17,8 +17,9 @@ padding: 10% 20%;
 .input-holder {
     display: flex;
   flex-direction: column;
-  max-width: 60%;
+  width: 30%;
   margin: 0 auto;
+  margin-bottom: 10%;
   
  
 }
@@ -26,9 +27,10 @@ padding: 10% 20%;
     border: none;
     padding-bottom: 3%;
     background-color: none;
-    padding-top: 2%;
-    width: 100%
-}
+    padding-top: 5%;
+    width: 100%;
+    outline: none;
+ }
 .input-number {
    color: #606060;
    padding-right: 2%;
@@ -38,9 +40,117 @@ padding: 10% 20%;
 .contact-label {
     font-size: 18px;
     font-family: Sora;
+    padding-bottom: 6%;
 
 }
 ::placeholder {
     font-size: 18px;
     font-family: Sora;
+    
+    
+}
+.contact-button {
+    width: 174px;
+    border-radius: 30px;
+    padding:17px 0px;
+    background-color: #2272EC;
+    border: none;
+    color: #fff;
+    margin-top: 10%;
+    
+}
+.arrow {
+    margin-left: 10%;
+  
+}
+.contact-middle-section1 {
+    display: flex;
+}
+.contact-info {
+   
+    width: 30%;
+   
+  }
+  .contact-holder {
+    border: 1px solid #2272EC;
+    border-radius: 5px;
+max-width: 270px;
+    padding: 3% 10%;
+    
+  }
+  .contact-holder h1 {
+font-size: 18px;
+font-weight: 700;
+font-family: Sora;
+padding: 7% 0%;
+  }
+  .contact-holder h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Sora;
+      }
+      .contact-holder h3 { 
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Sora;
+        padding-top: 20%;
+        padding-bottom: 15%;
+
+      }
+      .contact-holder h4 { 
+        font-size: 18px;
+        font-weight: 300;
+        font-family: Sora;
+        padding-bottom: 5%;
+      }
+    
+@media (max-width:1000px) {
+    .input-holder {
+        display: flex;
+      flex-direction: column;
+      width: 30%;
+      margin: 0 15%;
+      margin-bottom: 10%;
+      }
+}
+@media (max-width:700px) { 
+    .mid-wrapper h1 {
+        font-size: 40px;
+        font-family: Sora;
+        padding-top: 3%;
+        font-weight: 400;
+        
+          }
+          .mid-wrapper {
+            padding: 8% 10%;
+            }
+.contact-middle-section1 {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.input-holder {
+    display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  }
+  .contact-holder {
+    margin: 0 auto;
+    border: 1px solid #2272EC;
+    border-radius: 5px;
+max-width: 100%;
+    padding: 3% 10%;
+
+    
+  }
+  .contact-info {
+    width: 70%;
+    margin-inline: auto;
+    margin-bottom: 30px;
+  } 
+  .contact-button {
+    margin-inline: auto;
+  }
 }
