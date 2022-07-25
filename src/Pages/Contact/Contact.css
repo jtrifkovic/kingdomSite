@@ -5,6 +5,10 @@
     margin-top: -120px;
     width: 100%;   
 }
+
+input[type="text"] {
+  font-size: 1rem;
+}
 .mid-wrapper {
 padding: 8% 20%;
 }
