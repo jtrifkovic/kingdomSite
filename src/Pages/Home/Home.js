@@ -11,12 +11,12 @@ import Footer from '../../Components/footer/Footer'
 import dash from '../../img/whiteDash.png'
 import dashBlue from '../../img/Rectangle 178.svg'
 import downDash from '../../img/arrow.png'
-import leftDash from '../../img/Path 192.svg'
-import rightDash from '../../img/Path 192.png'
-import graph from "../../img/graphic-design.png"
-import ui from '../../img/uiux-design.png'
-import dev from '../../img/development.png'
-import out from '../../img/outsourcing.png'
+import leftDash from '../../img/Path 193.svg'
+import rightDash from '../../img/Path 192.svg'
+import graph from "../../img/Graph.svg"
+import ui from '../../img/UI.svg'
+import dev from '../../img/Dev.svg'
+import out from '../../img/Out.svg'
 import minus from '../../img/minus.svg'
 import plus from '../../img/plus.png'
 import adobe from "../../img/adobe.png"
@@ -135,7 +135,7 @@ const Home = () => {
         </Slide>
     </div>
     <div className='container flex pb100'>
-        <div>
+        <div ref={divRef}>
         <div className='aboutTop'>
             <img src={dashBlue} />
             ABOUT US
@@ -309,7 +309,7 @@ const Home = () => {
     <div className='large-image' >
         <img src={bigImg} />
     </div>
-    <Footer divRef={divRef} topRef={topRef} />
+    <Footer topRef={topRef} />
     </div>
   )
 }

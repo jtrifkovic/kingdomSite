@@ -14,7 +14,7 @@ const SideBar = ({showNav, setShowNav}) => {
     <div className='burgerOpen'
     style={{
         transform:`${showNav ? "translateX(0)" : "translateX(100%)"}`,
-        transition:"1s ease-in",
+        transition:"0.6s ease-in",
         position:"fixed",
         zIndex:'1000',
         minHeight:"100vh",

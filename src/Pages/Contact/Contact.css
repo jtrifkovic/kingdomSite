@@ -160,3 +160,13 @@ max-width: 100%;
     margin-inline: auto;
   }
 }
+
+@media (max-width: 600px) {
+  .contact-input {
+    margin-top: 10px;
+  }
+
+  .contact-label {
+    padding-bottom: 30px;
+  }
+}

@@ -150,8 +150,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .leftPart{
@@ -489,10 +490,6 @@
     .circleBtn {
         margin-left: 10%;
     }
-
-    .mountain{
-        min-height: 110vh;
-    }
 }
 
 @media (max-width: 690px) {
@@ -547,6 +544,10 @@
     .mt50 {
         display: none;
     }
+
+    .large-image {
+        display: none;
+    }
 }
 
 
@@ -589,14 +590,11 @@
         padding-left: 0;
     }
 
-    .mountain{
-        min-height: 85vh;
-    }
-
     .boxHold{
         margin-left: 0;
         padding: 1rem 1.5rem;
         margin-top: 10px;
+        gap: 1rem;
     }
 
     .faqText{
@@ -630,10 +628,14 @@
     }
 
     .boxText {
-        font-size: 0.6rem;
+        font-size: 14px;
     }
 
     .boxTitle {
-        font-size: 0.8rem;
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: min(1170px, calc(100vw - 50px));
     }
 }

@@ -101,8 +101,9 @@ font-size: 14px;
 .card {
     background-color: #fff;
     display: flex;
+    align-items: center;
     padding: 2rem;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
     max-width: 670px;
     border-radius: 10px;
 }
@@ -217,7 +218,7 @@ padding-bottom: 3%;}
               gap: 1%;
             }
             .main-content-heading {
-                font-size: 40px;
+                font-size: 30px;
                 font-family: Sora;
                 color: #17171B;
             }
@@ -236,6 +237,19 @@ padding-bottom: 3%;}
                     .content-wrapper h3 {
                         color: #fff;
                     font-size:40px;
+                }
+                .main-content-heading1 {
+                    font-size:40px;
+                }
+                
+                .padding {
+                    margin-top: 4rem;
+                    padding-bottom: 5rem;
+                }
+
+                .main-content1 {
+                    text-align: start;
+                    margin-left: -250px;
                 }
             .heading {
                 padding-top: 15rem;
@@ -288,11 +302,25 @@ padding-bottom: 3%;}
                 color: #2272EC;
             }
             }
+
+            @media (max-width: 830px) {
+                .headerTextWrapper1 {
+                    padding-left: 10%;
+                }
+
+                .main-content-heading1 {
+                    font-size: 2.5rem;
+                }
+
+                .padding {
+                    margin-top: 4rem;
+                    padding-bottom: 4rem;
+                }
+            }
             @media screen and (max-width: 700px) {
                 .main-content {
                     padding-top: 5rem ;
-                    padding-left: 2rem;
-                   width: 300px;
+                    width: 300px;
                    }
                    .padding {
                     margin-top: 3rem; 
@@ -308,9 +336,11 @@ padding-bottom: 3%;}
                     font-size: 25px;
                     font-family: Sora;
                     color: #17171B;
+                    padding: 20px 0px;
                 }
                 .main-content-heading1 { 
                     font-size:35px;
+
                 }
                 .headerText1{
                     font-family: Sora;
@@ -319,15 +349,15 @@ padding-bottom: 3%;}
                     color: white;
                 }
                 .card-heading h1 {
-                    font-size: 0.6rem;
+                    font-size: 14px;
                     font-family: Sora;
-                    padding-left: 30px;
+                    padding-left:10px;
                 }
                 .card-heading p {
-                    font-size: 0.6rem;
+                    font-size: 12px;
                     font-family: Sora;
                     color: #606060;
-                    padding-left: 30px;
+                    padding-left: 10px;
                 }
                 .card {
                     background-color: #fff;
@@ -342,6 +372,16 @@ padding-bottom: 3%;}
                     font-family: Sora;
                     color: #17171B;
                     font-weight: lighter;
+                    text-align: start;
+                    padding-bottom: 20px;
+                }
+
+                .big-image1 {
+                    display: none;
+                }
+
+                .main-content1 {
+                    margin-left: -120px;
                 }
             }
                 @media screen and (max-width: 480px) {
@@ -350,8 +390,17 @@ padding-bottom: 3%;}
                         display: flex;
                         padding: 2rem;
                         margin-bottom: 2%;
-                        max-width: 300px;
+                        max-width: 90%;
+                        margin-inline: auto;
                         border-radius: 10px;
+                    }
+
+                    .headerTextWrapper1 {
+                        padding-left: 5%;
+                    }
+
+                    .main-content1 {
+                        margin-left: -20px;
                     }
                 } 
          

@@ -5,7 +5,7 @@ import './Navbar.css'
 import SideBar from './SideBar'
 
 // IMAGES
-import logo from '../../img/logo.png'
+import logo from '../../img/logo.svg'
 import burger from '../../img/menu-icon.png'
 import {NavLink} from 'react-router-dom'
 import {FaGlobe} from 'react-icons/fa'
@@ -18,9 +18,11 @@ const Navbar = () => {
   return (
     <>
     <div className='navbar'>
+        <NavLink to='/'>
         <div className='logo'>
             <img src={logo} />
         </div>
+        </NavLink>
         <div>
             <ul className='nav-links'>
             <NavLink className="navLink" to="/" >

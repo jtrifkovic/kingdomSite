@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
 import Slide from 'react-reveal/Slide'
 import Spin from 'react-reveal/Spin'
 import "./Services.css"
@@ -9,12 +8,12 @@ import Footer from '../../Components/footer/Footer'
 import Navigator from '../../Components/Navigator'
 
 // IMAGES
-import graph from '../../img/graph.png'
-import ui from '../../img/uiux-design.png'
-import dev from '../../img/Mask Group 23.png'
+import graph from '../../img/Graph.svg'
+import ui from '../../img/UI.svg'
+import dev from '../../img/Dev.svg'
 import dev1 from '../../img/Mask Group 22.png'
 import slike from '../../img/slike.png'
-import marketing from '../../img/marketing.png'
+import marketing from '../../img/Digital.svg'
 import minus from '../../img/minus.svg'
 import plus from '../../img/plus.png'
 import dashBlue from '../../img/Rectangle 178.svg'
@@ -184,7 +183,7 @@ for building responsive, mobile-first sites </p>
     <div className='content-wrapper'>
     <h1>What our clients say about us.</h1>
     <h2>“We spend a lot time designing the
-bridge,but not enough time thinking
+bridge, but not enough time thinking
 about the people who are crossing it.”</h2>
     <h3>Dr. Prabhjot Singh</h3>
     </div>

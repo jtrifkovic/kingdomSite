@@ -29,7 +29,7 @@ const Footer = ({divRef, topRef}) => {
             <div className='leftPartPop'>
             <p>HQ:</p>
             <p>Dušana Baranina 15, Bijeljina, <br />
-               Serb Republic 76000, BA
+               Serb Republic 76300, BiH
             </p>
             </div>
             <div className='rightPartPop'>

@@ -134,7 +134,7 @@ a{
 }
 
 .midContentOpen a {
-    font-size: 5.5rem;
+    font-size: 4rem;
     font-family: Sora;
     font-weight: 500;
     color: #fff;
@@ -149,7 +149,7 @@ a{
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .leftBotOpen {
@@ -167,13 +167,13 @@ a{
     color: #fff;
 }
 
-@media (max-height: 900px) {
+@media screen and ( height: 900px) {
     .midContentOpen a {
         font-size: 4rem;
     }
 
     .botOpen {
-        padding-top: 10%;
+        padding-top: 1%;
     }
 }
 
@@ -198,7 +198,7 @@ a{
     }
 
     .botOpen {
-        padding-top: 15%;
+        padding-top: 10%;
     }
 }
 
@@ -278,11 +278,22 @@ a{
    .engContent-left {
     display: none;
    }
+
+   .botOpen {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 30%;
+}
 }
 
 @media (max-width: 500px) {
     .engOpen{
         gap: 10rem;
+    }
+
+    .engContent-right {
+        display: none;
     }
 
     .containerOpen {
@@ -291,16 +302,12 @@ a{
 
     .midContentOpen a {
         font-size: 2rem;
-        margin-left: 20%;
+        margin-left: 10%;
+        margin-top: 10%;
     }
 
     .leftBotOpen {
         font-size: 0.8rem;
-    }
-
-    .botOpen {
-        padding-top: 70%;
-        flex-direction: column;
     }
 }
 
@@ -324,10 +331,6 @@ a{
     }
 
     .botOpen {
-        padding-top: 80%;
-    }
-
-    .engContent-right {
-        display: none;
+        padding-top: 40%;
     }
 }

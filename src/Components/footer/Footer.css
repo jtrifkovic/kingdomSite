@@ -118,6 +118,8 @@
     background-color: #2272EC;
     color: #fff;
     cursor: pointer;
+
+    border: 0;
 }
 
 .rightBot {
@@ -156,10 +158,9 @@
     }
 
     .footerSoc {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
         gap: 40px;
-        padding-bottom: 40px;
     }
 
     .botFlex {
@@ -195,7 +196,7 @@
     }
 
     .footerSoc {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 40px;
         align-items: flex-start;
     }
@@ -210,7 +211,11 @@
     }
 
     .fotSocCrc {
-        margin-left: 2rem;
+        margin-left: 1rem;
+    }
+
+    .rightPartPop {
+        margin-left: 3rem;
     }
 
     .leftBot p {
@@ -224,4 +229,5 @@
     .brBot {
         padding-bottom: 2rem;
     }
+
 }

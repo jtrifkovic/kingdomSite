@@ -4,15 +4,15 @@ import Slide from 'react-reveal/Slide'
 import "./About.css";
 
 // COMPONENTS 
-import Footer from "../../Components/footer/Footer"
+import Footer from '../../Components/footer/Footer';
 import Navigator from '../../Components/Navigator';
 
 // IMAGES
 import whiteDash from '../../img/whiteDash.png'
 import dashBlue from '../../img/Rectangle 178.svg'
-import card1 from "../../img/Group 3731.png"
-import card2 from "../../img/Group 3732.png"
-import card3 from "../../img/Group 3733.png"
+import card1 from "../../img/Group 3731.svg"
+import card2 from "../../img/Group 3732.svg"
+import card3 from "../../img/Group 3733.svg"
 import logo3 from "../../img/logo3.svg"
 import adobe from "../../img/adobe.png"
 import angular from "../../img/angular.png"
@@ -72,7 +72,7 @@ const name = "About Us"
               <img src={dashBlue}/>
               <h4 className='blueText'>ABOUT US</h4>
               </div>
-              <h1 className="missionText">Our mission <br/> &amp; vission</h1>
+              <h1 className="missionText">Our mission <br/> &amp; vision</h1>
           </div>
           <div className='missionHolder'>
           <div className='misssionHeadTitle'>

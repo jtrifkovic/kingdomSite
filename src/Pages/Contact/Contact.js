@@ -106,7 +106,7 @@ const Contact = () => {
           <a href=""> Instagram </a>
         </h4>
         <h4>
-          <a href=""> Linkedin </a>
+          <a href="https://www.linkedin.com/company/kingdomdoo/" target="_blank"> Linkedin </a>
         </h4>
       </div>
     </div>
