@@ -108,8 +108,10 @@ p{
 
 .knowledgeHeading{
     padding-bottom: 37px;
-    padding-left: 90px;
+    
 }
+
+
 
 .missionHolder{
     margin-left: 80px;
@@ -202,9 +204,9 @@ p{
     align-items: center;
 
     background-color: #2272EC;
-    width: 277px;
-    height: 160px;
-    padding: 20px;
+    /* width: 277px;
+    height: 160px; */
+    padding: 50px;
 
     border-radius: 5px;
 }
@@ -263,7 +265,7 @@ p{
     font-family: Sora;
     font-size: 14px;
 
-    padding: 160px 0px 0px 90px;
+    padding: 160px 0px 0px 0;
     gap: 21px;
 
     color:#2272EC;
@@ -280,8 +282,6 @@ p{
 
 .imageHolder{
     background-color: white;
-    height: 180px;
-    width: 218px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -420,6 +420,205 @@ p{
                                   MEDIA QUERY    
    ======================================================================================
 */
+@media screen and (min-width: 2500px) and (max-width: 2779px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 13%;
+    }
+   
+
+}
+@media screen and (min-width: 2300px) and (max-width: 2500px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 11%;
+    }
+
+}
+@media screen and (min-width: 2050px) and (max-width: 2300px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 9%;
+    }
+
+}
+@media screen and (min-width: 1900px) and (max-width: 2050px) { 
+   
+
+    .headerTextWrapper{
+        padding: 233px 0 0 6%;
+    }
+
+
+}
+@media screen and (min-width: 1750px) and (max-width: 1900px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 4%;
+    }
+
+    .images{
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1650px) and (max-width: 1750px) { 
+    .headerTextWrapper{
+        padding: 233px 0 0 3%;
+    }
+    .backgroundWhite{
+        padding: 0 0 20% 0%;
+    }
+
+    /* .cardsHolder {
+        padding: 30px;
+    } */
+}
+@media (max-width: 1650px) {
+    .ps90 {
+        padding-left: 90px;
+    }
+}
+@media screen and (max-width: 1570px) {
+
+    .servicesHeading, .missionText, .knowledgeHeading{
+        font-size: 43px;
+    }
+    .knowledgeSection{
+        margin: 0 14% 0 15%;
+    }
+  
+    .images{
+        justify-content: center;
+    }
+    .headerText{
+        font-size: 50px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .cardsHeading{
+        font-size: 50px;
+    }
+    .underCardsSection{
+        padding-bottom: 7%;
+    }
+    .services{
+        padding-top: 7%;
+    }
+    .aboutSection{
+        margin: 10% 0 10% 0;
+    }
+    .underExploreTab{
+        display: flex;
+    }
+
+    .cardsHolder {
+        padding: 20px;
+    }
+} 
+
+@media screen and (max-width: 1499px) {
+    .underCardsHeadingWrapper{
+        margin: 0;
+    }
+    
+    .ps90 {
+        padding-left: 50px;
+    }
+    .secondLogo{
+        padding-right: 60px;
+    }
+
+    .underCardsSection{
+        justify-content: center;
+    }
+
+    .underCardsHeading{
+        padding-top: 30px;
+    }
+
+    .missionText{
+        font-size: 50px;
+    }
+    .loremText{
+        font-size: 22px;
+    }
+
+    .knowledgePointer{
+        padding: 10% 0 0 0px ;
+    }
+
+    .quatermarkWrapper{
+        margin-top: -17%;
+    }
+    .secondLogo{
+        padding: 0;
+    }
+    .underCardsHeadingWrapper{
+        margin-left: 60px;
+    }
+
+}
+@media screen and (max-width: 1415px) {
+    .secondLogo{
+        padding: 0;
+    }
+}
+@media  (max-width: 1400px) { 
+    .footerTitl h1{
+        padding-top: 35px;
+        font-size: 3rem;
+    }
+
+    .cardsHolder{ 
+        padding: 20px 10px !important;
+    }
+
+    .ps90 {
+        padding-left: 50px;
+    }
+}
+@media (max-width:1210px ) {
+    .servicesHeading {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1100px) {
+    .quatermarkWrapper{
+        width: 100%;
+        margin-top: 0;
+    }
+    .backgroundWhite{
+        padding: 0 0 25% 0;
+    }
+    .servicesHeading {
+        font-size: 30px;
+    }
+
+    .cardsHeading {
+        font-size: 30px;
+    }
+    .qoutes{
+        margin-top: 0;
+    }
+    .quatermarkHolder{
+        margin: 0 10% 0 10%;
+    }
+    .blue{
+        margin-top: 0;
+        padding-top: 0;
+    }
+   
+    .cardsHolder{
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
+    .cardImage{
+        padding-left: 2%;
+    }
+    .underExploreTab{
+        display: flex;
+    }
+    .applyNow{
+        flex-wrap: nowrap;
+    }
+}
 @media (max-width: 950px){
     .aboutSection{
         justify-content: flex-start;
@@ -443,12 +642,25 @@ p{
         margin: 0;
     }
 }
+
+@media (max-width: 800px) {
+    .cardsHolder {
+        width: 300px;
+    }
+
+    .knowledgeHeading {
+        font-size: 30px;
+    }
+    /* .knowledgePointer {
+        font-size: ;
+    } */
+}
 @media (max-width: 750px) {
     .headerText, 
     .missionText, 
     .servicesHeading, 
     .knowledgeHeading{
-        font-size: 2rem !important;
+        font-size: 30px ;
     }
     .missionArrowWrapper{
         flex-direction: row-reverse;
@@ -479,6 +691,11 @@ p{
     .cardsHolder{
         flex-wrap: nowrap;
         justify-content: flex-start;
+    }
+    .imageHolder img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
     }
     .underCardsHeadingWrapper{
         margin: 0 !important;
@@ -538,10 +755,8 @@ p{
     }
     
 }
-
 @media (max-width: 700px) {
     .imageHolder {
-        padding: 10px;
         width: auto;
         height: auto;
     }
@@ -565,187 +780,33 @@ p{
         object-fit: cover;
     }
 }
-@media (max-width: 1100px) {
-    .quatermarkWrapper{
-        width: 100%;
-        margin-top: 0;
-    }
-    .backgroundWhite{
-        padding: 0 0 25% 0;
-    }
-    .qoutes{
-        margin-top: 0;
-    }
-    .quatermarkHolder{
-        margin: 0 10% 0 10%;
-    }
-    .blue{
-        margin-top: 0;
-        padding-top: 0;
-    }
-   
-    .cardsHolder{
-        flex-wrap: nowrap;
-        justify-content: start;
-    }
-    .cardImage{
-        padding-left: 2%;
-    }
-    .underExploreTab{
-        display: flex;
-    }
-    .applyNow{
-        flex-wrap: nowrap;
-    }
-}
 
-    
-
-@media screen and (max-width: 1415px) {
-    .secondLogo{
-        padding: 0;
+@media (max-width: 500px) {
+    .headerText, 
+    .missionText, 
+    .servicesHeading, 
+    .knowledgeHeading{
+        font-size: 25px ;
     }
-
-   
-    
-  
-}
-@media screen and (min-width: 1200px) and (max-width: 1400px) { 
-    .footerTitl h1{
-        padding-top: 35px;
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 1499px) {
-    .underCardsHeadingWrapper{
-        margin: 0;
-    }
-    
     .knowledgeHeading {
-        padding-left: 0;
+        padding-left: 10px;
     }
-
-    .secondLogo{
-        padding-right: 60px;
-    }
-
-    .underCardsSection{
-        justify-content: center;
-    }
-
-    .underCardsHeading{
-        padding-top: 30px;
-    }
-
-    .missionText{
-        font-size: 50px;
-    }
-    .loremText{
-        font-size: 22px;
-    }
-
-    .knowledgePointer{
-        padding: 10% 0 0 0 ;
-    }
-
-    .quatermarkWrapper{
-        margin-top: -17%;
-    }
-    .secondLogo{
-        padding: 0;
-    }
-    .underCardsHeadingWrapper{
-        margin-left: 60px;
-    }
-
-}
-
-
-@media screen and (max-width: 1570px) {
-
-    .servicesHeading, .missionText, .knowledgeHeading{
-        font-size: 43px;
-    }
-    .knowledgeSection{
-        margin: 0 14% 0 15%;
-    }
-  
-    .images{
-        justify-content: center;
-    }
-    .headerText{
-        font-size: 50px;
-    }
-    p{
-        font-size: 14px;
-    }
-    .cardsHeading{
-        font-size: 50px;
-    }
-    .underCardsSection{
-        padding-bottom: 7%;
-    }
-    .services{
-        padding-top: 7%;
-    }
-    .aboutSection{
-        margin: 10% 0 10% 0;
-    }
-    .cardsHolder{
-        height: 160px;
-        width: 277px;
-    }
-    .underExploreTab{
-        display: flex;
-    }
-} 
-
-@media screen and (min-width: 1650px) and (max-width: 1750px) { 
-    .headerTextWrapper{
-        padding: 233px 0 0 3%;
-    }
-    .backgroundWhite{
-        padding: 0 0 20% 0%;
+    .knowledgePointer {
+        padding-left: 10px;
     }
 }
 
-@media screen and (min-width: 1750px) and (max-width: 1900px) { 
-    .headerTextWrapper{
-        padding: 233px 0 0 4%;
+@media (max-width: 400px) {
+    .knowledgeHeading {
+        margin-left: 0px;
+        padding-left: 0px
     }
-
-    .images{
-        justify-content: center;
+    .knowledgePointer {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .ps10 {
+        margin-left: 25px;
+        padding-left: 25px;
     }
 }
-
-@media screen and (min-width: 1900px) and (max-width: 2050px) { 
-   
-
-    .headerTextWrapper{
-        padding: 233px 0 0 6%;
-    }
-
-
-}
-@media screen and (min-width: 2050px) and (max-width: 2300px) { 
-    .headerTextWrapper{
-        padding: 233px 0 0 9%;
-    }
-
-}
-@media screen and (min-width: 2300px) and (max-width: 2500px) { 
-    .headerTextWrapper{
-        padding: 233px 0 0 11%;
-    }
-
-}
-@media screen and (min-width: 2500px) and (max-width: 2779px) { 
-    .headerTextWrapper{
-        padding: 233px 0 0 13%;
-    }
-   
-
-}
-

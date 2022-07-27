@@ -154,12 +154,14 @@ const name = "About Us"
           </div>
         </div>
         <div className='backgroundWhite'>
-          <div className='knowledgeSection'>
-            <div className='knowledgePointer'>
+          <div className='knowledgeSection container'>
+            <div className='ps90'>
+            <div className='knowledgePointer  ps10'>
              <img src={dashBlue}/>
             KNOWLEDGE
             </div>
-            <h1 className='knowledgeHeading'>We use latest<br/> technologies</h1>
+            <h1 className='knowledgeHeading   ps10'>We use latest<br/> technologies</h1>
+            </div>
             <div className='images'>
               <div className='imageHolder'>
                 <img src={adobe}/>

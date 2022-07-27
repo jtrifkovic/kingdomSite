@@ -39,7 +39,9 @@ a{
     background: #2272EC;
     color: #fff;
     
-    border-radius: 12px;
+    border-radius: 50px;
+    border: 0px solid #fff;
+
 }
 
 .language{
@@ -69,9 +71,9 @@ a{
 
     background-color: transparent;
 
-    padding: 7px 26px 7px 20px;
+    padding: 15px 30px;
     border: 1px solid #fff;
-    border-radius: 12px;
+    border-radius: 50px;
 }
 
 .burger, .logo, .navBtn {
@@ -332,5 +334,8 @@ a{
 
     .botOpen {
         padding-top: 40%;
+    }
+    .ps90 {
+        padding-left: 0;
     }
 }
