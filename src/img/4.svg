@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="218" height="160" viewBox="0 0 218 160">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_88" data-name="Rectangle 88" width="102" height="102" transform="translate(546 6871)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_4" data-name="4" transform="translate(-375 -4000)">
+    <rect id="Rectangle_186" data-name="Rectangle 186" width="218" height="160" rx="6" transform="translate(375 4000)" fill="#fff"/>
+    <g id="Mask_Group_15" data-name="Mask Group 15" transform="translate(-112 -2842)" clip-path="url(#clip-path)">
+      <g id="csharp_original_logo_icon_146578" transform="translate(550.357 6876.208)">
+        <path id="Path_89" data-name="Path 89" d="M83.254,22.1,48.884,2.314a4.22,4.22,0,0,0-2.206-.5,5.048,5.048,0,0,0-2.206.5L10.316,22.167A4.89,4.89,0,0,0,8.252,26.01V65.645a4.18,4.18,0,0,0,.712,2.491l76-44.118A5.04,5.04,0,0,0,83.254,22.1Z" fill="#9b4f96"/>
+        <path id="Path_90" data-name="Path 90" d="M8.83,71.6a4.087,4.087,0,0,0,1.352,1.352L44.481,92.8a4.22,4.22,0,0,0,2.206.5,5.048,5.048,0,0,0,2.206-.5L83.049,72.951a4.89,4.89,0,0,0,2.064-3.843V29.473a4.041,4.041,0,0,0-.427-1.992L8.83,71.6Z" transform="translate(-0.08 -3.535)" fill="#68217a"/>
+        <path id="Path_91" data-name="Path 91" d="M63.483,56.936a17.47,17.47,0,1,1,0-17.149l9.251-5.337a28.1,28.1,0,1,0-.071,27.894l-9.179-5.408Zm8.326-7.045.64-3.06H69.46V43.487h3.629l.854-4.412H77.43l-.854,4.341h2.7l.854-4.341H83.55L82.7,43.416H84.4v3.344H82.056l-.64,3.06H84.4v3.344H80.775l-.854,4.27H76.434l.854-4.27h-2.7l-.854,4.27H70.314l.854-4.27H69.46V49.821h2.348Zm3.416,0h2.7l.64-3.06h-2.7Z" transform="translate(-1.648 -2.534)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

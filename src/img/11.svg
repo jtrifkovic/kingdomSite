@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="160" viewBox="0 0 218 160">
+  <g id="_11" data-name="11" transform="translate(-375 -4000)">
+    <rect id="Rectangle_186" data-name="Rectangle 186" width="218" height="160" rx="6" transform="translate(375 4000)" fill="#fff"/>
+    <g id="NET_Logo" transform="translate(445 4040.025)">
+      <rect id="Rectangle_154" data-name="Rectangle 154" width="79" height="79" transform="translate(0 -0.025)" fill="#512bd4"/>
+      <path id="Path_421" data-name="Path 421" d="M71.677,272.884a1.989,1.989,0,0,1-1.424-.558,1.886,1.886,0,0,1,0-2.734,2.074,2.074,0,0,1,2.862,0,1.856,1.856,0,0,1,0,2.734A2.007,2.007,0,0,1,71.677,272.884Z" transform="translate(-57.601 -222.428)" fill="#fff"/>
+      <path id="Path_422" data-name="Path 422" d="M129.125,191.526H125.5l-9.563-15.086a6.751,6.751,0,0,1-.6-1.188h-.084a21.66,21.66,0,0,1,.112,2.82v13.455h-3.211V171h3.867l9.242,14.729q.586.916.754,1.26h.056a18.7,18.7,0,0,1-.14-2.763V171h3.2Z" transform="translate(-92.726 -141.385)" fill="#fff"/>
+      <path id="Path_423" data-name="Path 423" d="M246.8,191.526H235.561V171h10.791v2.891h-7.469V179.7h6.882v2.877h-6.882v6.069H246.8Z" transform="translate(-194.764 -141.385)" fill="#fff"/>
+      <path id="Path_424" data-name="Path 424" d="M321.955,173.891H316.2v17.634h-3.323V173.891h-5.738V171h14.812Z" transform="translate(-253.949 -141.385)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

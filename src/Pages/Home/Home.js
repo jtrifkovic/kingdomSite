@@ -19,16 +19,16 @@ import dev from '../../img/Dev.svg'
 import out from '../../img/Out.svg'
 import minus from '../../img/minus.svg'
 import plus from '../../img/plus.png'
-import adobe from "../../img/adobe.png"
-import angular from "../../img/angular.png"
-import cPlus from "../../img/cPlus.png"
-import cSharp from "../../img/c-sharp.png"
-import node from "../../img/node-js.png"
-import javascript from "../../img/javascript.png"
-import css from "../../img/css.png"
-import google from "../../img/google.png"
-import react from "../../img/react.png"
-import java from "../../img/java.png"
+import adobe from "../../img/1.svg"
+import angular from "../../img/2.svg"
+import cPlus from "../../img/3.svg"
+import cSharp from "../../img/4.svg"
+import node from "../../img/5.svg"
+import javascript from "../../img/6.svg"
+import css from "../../img/7.svg"
+import google from "../../img/8.svg"
+import react from "../../img/9.svg"
+import java from "../../img/10.svg"
 import bigImg from '../../img/iznad futera.png'
 import {FaAngleRight} from 'react-icons/fa'
 

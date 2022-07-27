@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="218" height="160" viewBox="0 0 218 160">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_82" data-name="Rectangle 82" width="102" height="102" transform="translate(1090 6739)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_22" data-name="22" transform="translate(-375 -4000)">
+    <rect id="Rectangle_186" data-name="Rectangle 186" width="218" height="160" rx="6" transform="translate(375 4000)" fill="#fff"/>
+    <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(-657 -2711)" clip-path="url(#clip-path)">
+      <g id="Vue.js_Logo_2" transform="translate(1067.917 6874.561)">
+        <g id="Group_12" data-name="Group 12" transform="translate(29.735 -122.102)">
+          <path id="Path_45" data-name="Path 45" d="M-9.419,0-19.43,17.339-29.44,0H-62.778L-19.43,75.082,23.919,0Z" transform="translate(62.778)" fill="#41b883"/>
+        </g>
+        <g id="Group_13" data-name="Group 13" transform="translate(47.074 -122.102)">
+          <path id="Path_46" data-name="Path 46" d="M-6.358,0-16.369,17.339-26.38,0h-16l26.009,45.048L9.64,0Z" transform="translate(42.378)" fill="#34495e"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -550,6 +550,21 @@ p{
         padding: 10px;
     }
 }
+
+@media (max-width: 400px) {
+    .knowledgePointer {
+        margin-left: 20px;
+    }
+    .knowledgeHeading {
+        margin-left: 20px;
+    } 
+
+    .imageHolder > img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
 @media (max-width: 1100px) {
     .quatermarkWrapper{
         width: 100%;
