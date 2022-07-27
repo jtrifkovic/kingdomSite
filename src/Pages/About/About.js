@@ -240,7 +240,7 @@ const name = "About Us"
             </div>
           </div>
 
-          <div>
+          <div className='container'>
           <div className='knowledgePointer'>
              <img src={dashBlue}/>
             KNOWLEDGE

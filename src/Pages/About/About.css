@@ -765,22 +765,6 @@ p{
         padding: 10px;
     }
 }
-
-@media (max-width: 400px) {
-    .knowledgePointer {
-        margin-left: 20px;
-    }
-    .knowledgeHeading {
-        margin-left: 20px;
-    } 
-
-    .imageHolder > img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-    }
-}
-
 @media (max-width: 500px) {
     .headerText, 
     .missionText, 
@@ -793,6 +777,9 @@ p{
     }
     .knowledgePointer {
         padding-left: 10px;
+    }
+    .ps90 {
+        padding-left: 0;
     }
 }
 
@@ -808,5 +795,10 @@ p{
     .ps10 {
         margin-left: 25px;
         padding-left: 25px;
+    }
+    .imageHolder > img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
     }
 }
