@@ -266,7 +266,7 @@ const Home = () => {
          </div>
     </div>
     <div className='cardsSections'>
-        <div className='knowledgeSection'>
+        <div className='knowledgeSection container'>
           <div className='knowledgePointerHome'>
             <img src={dashBlue}/>
             KNOWLEDGE

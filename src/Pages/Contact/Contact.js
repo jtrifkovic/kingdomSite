@@ -62,22 +62,22 @@ const Contact = () => {
         <input onChange={event =>{inputChange(event)}} name="name" type="text"  value={inputText["name"]}
         className='contact-input' placeholder='John Doe*'/>
       </label>
-      <label className='contact-label'>
+      <label className='contact-label pt35'>
         <span className='input-number'>02</span>What's your email? <br/>
         <input onChange={event =>{inputChange(event)}} type="text" name="email" value={inputText["email"]}
         className='contact-input' placeholder='john@doe.com'/>
       </label>
-      <label className='contact-label'>
+      <label className='contact-label pt35'>
         <span className='input-number'>03</span>What's the name of your organization?
         <input onChange={event =>{inputChange(event)}} type="text" name='organization' value={inputText["organization"]}
         className='contact-input' placeholder='Your Company Name &reg;'/>
       </label>
-      <label className='contact-label'>
+      <label className='contact-label pt35'>
         <span className='input-number'>04</span>What services are you looking for?<br/>
         <input onChange={event =>{inputChange(event)}} type="text" name="services" value={inputText["services"]}
         className='contact-input' placeholder='Web Design, Web Development ...'/>
       </label>
-        <label className='contact-label'>
+        <label className='contact-label pt35'>
         <span className='input-number'>05</span>Your message <br/>
         <input onChange={event =>{inputChange(event)}} type="text" name='message' value={inputText["message"]}
         className='contact-input' placeholder='Hello, can you help me with...'/>

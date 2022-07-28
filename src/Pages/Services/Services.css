@@ -157,6 +157,8 @@ font-size: 14px;
 }
 .big-image1 {
     width: 100%;
+    display: block;
+    margin-bottom: -5px;
 }
 .bottom-background {
     background-image: url(/src/img/Group\ 3754.png);
@@ -183,7 +185,7 @@ padding-bottom: 3%;}
     font-size:60px}
         .content-wrapper h3 {
             color: #fff;
-            font-family: Sora;
+            font-family: Business Signature D;
         font-size:85px;
         padding-bottom: 5%;
     }
@@ -196,17 +198,7 @@ padding-bottom: 3%;}
              
                }
         }
-        @media screen and (max-width: 1032px) {
-            .main-content1 {
-                text-align: center;
-            }
-            .content-wrapper {
-                margin: 0 auto;
-                max-width: 65%;
-               padding-top: 15%;
-               
-            }
-        }
+      
         @media screen and (max-width: 1176px) {
             .main-content1 {
                 text-align: center;
@@ -301,6 +293,17 @@ padding-bottom: 3%;}
                 font-family: Sora;
                 color: #2272EC;
             }
+            }
+            @media screen and (max-width: 1032px) {
+                .main-content1 {
+                    text-align: center;
+                }
+                .content-wrapper {
+                    margin: 0 auto;
+                    max-width: 65%;
+                   padding-top: 15%;
+                   
+                }
             }
 
             @media (max-width: 830px) {
@@ -401,6 +404,12 @@ padding-bottom: 3%;}
 
                     .main-content1 {
                         margin-left: -20px;
+                    }
+                    .padding {
+                        padding-left: 20px;
+                    }
+                    .none {
+                        display: none;
                     }
                 } 
          

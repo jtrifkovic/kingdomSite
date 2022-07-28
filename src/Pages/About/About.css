@@ -75,9 +75,13 @@ p{
 .services, 
 .cards, 
 .underCardsSection,
-.knowledgeSection,
+/* .knowledgeSection, */
 .headerTextWrapper{
     margin: 0 15% 0 15%;
+}
+
+.underCardsSection {
+    margin-left: 12%;
 }
 
 .blueText{
@@ -192,10 +196,10 @@ p{
     padding: 50px 0px 38px 0px;
 
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 
-    gap: 10px;
+    gap:30px;
 }
 
 .cardsHolder{
@@ -203,13 +207,20 @@ p{
     justify-content: center;
     align-items: center;
 
+    max-width: 370px;
+    width: 100%;
+    
+
     background-color: #2272EC;
-    /* width: 277px;
-    height: 160px; */
-    padding: 50px;
+    padding: 40px;
 
     border-radius: 5px;
 }
+
+.ps30 {
+    margin-left: -100px;
+}
+
 
 .insideCardsHolder{
     color: white;
@@ -489,6 +500,12 @@ p{
     .headerText{
         font-size: 50px;
     }
+    .underCardsSection {
+        margin-left: 16%;
+    }
+    .largeLogo {
+        padding: 20px;
+    }
     p{
         font-size: 14px;
     }
@@ -561,13 +578,8 @@ p{
     }
 }
 @media  (max-width: 1400px) { 
-    .footerTitl h1{
-        padding-top: 35px;
-        font-size: 3rem;
-    }
-
     .cardsHolder{ 
-        padding: 20px 10px !important;
+        padding: 20px 10px;
     }
 
     .ps90 {
@@ -578,6 +590,17 @@ p{
     .servicesHeading {
         font-size: 30px;
     }
+    .cards {
+        flex-wrap: wrap;
+    }
+    .cardsHolder {
+        max-width: 290px;
+    }
+
+    /* .cardsHolder {
+        flex-shrink: 0;
+        flex-grow: 0;
+    } */
 }
 @media (max-width: 1100px) {
     .quatermarkWrapper{
@@ -585,7 +608,7 @@ p{
         margin-top: 0;
     }
     .backgroundWhite{
-        padding: 0 0 25% 0;
+        padding: 0 0 10% 0;
     }
     .servicesHeading {
         font-size: 30px;
@@ -645,7 +668,12 @@ p{
 
 @media (max-width: 800px) {
     .cardsHolder {
-        width: 300px;
+        max-width: 400px;
+        padding-left: 50px;
+    }
+
+    .secondLogo {
+        padding: 20px 50px;
     }
 
     .knowledgeHeading {
@@ -664,6 +692,7 @@ p{
     }
     .missionArrowWrapper{
         flex-direction: row-reverse;
+        justify-content: center;
         gap: 20px;
         padding-top: 20px;
     }
@@ -690,7 +719,7 @@ p{
     }
     .cardsHolder{
         flex-wrap: nowrap;
-        justify-content: flex-start;
+        
     }
     .imageHolder img {
         width: 150px;
@@ -781,6 +810,12 @@ p{
     .ps90 {
         padding-left: 0;
     }
+    .secondLogo {
+        padding: 10px 22px;
+    }
+    .cardsHolder {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -800,5 +835,9 @@ p{
         width: 100px;
         height: 100px;
         object-fit: cover;
+    }
+    
+    .secondLogo {
+        padding: 5px;
     }
 }

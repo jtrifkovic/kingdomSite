@@ -104,7 +104,7 @@ const name = "About Us"
           </div>  
         </div>
       </div>
-      <div className='servicesWrapper'>
+      <div className='servicesWrapper '>
           <div className='services'>
             <div className='servicesHolder'>
               <img src={whiteDash}/>

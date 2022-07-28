@@ -10,7 +10,7 @@ input[type="text"] {
   font-size: 1rem;
 }
 .mid-wrapper {
-padding: 8% 20%;
+padding: 7% 20%;
 }
 .mid-wrapper h1 {
   font-size: 60px;
@@ -21,8 +21,8 @@ padding: 8% 20%;
 .input-holder {
     display: flex;
   flex-direction: column;
-  width: 30%;
-  margin: 0 auto;
+  width: 40%;
+  margin: 0 7% 0 20% ;
   margin-bottom: 10%;
   
  
@@ -35,16 +35,23 @@ padding: 8% 20%;
     width: 100%;
     outline: none;
  }
+ .pt35 {
+  padding-top: 35px;
+ }
 .input-number {
    color: #606060;
    padding-right: 2%;
    font-size: 14px;
+   padding-top: 35px;
  
 }
 .contact-label {
     font-size: 18px;
     font-family: Sora;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
+    width: 100%;
+
+    border-bottom: 1px solid #D6DBE1;
 
 }
 ::placeholder {
@@ -59,6 +66,8 @@ padding: 8% 20%;
     padding:17px 0px;
     background-color: #2272EC;
     border: none;
+    font-size: 16px;
+    font-family: Sora;
     color: #fff;
     margin-top: 10%;
 

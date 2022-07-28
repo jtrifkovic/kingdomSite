@@ -174,7 +174,7 @@ passion at the service.
     <Spin>
    <img className="card-image1"src={dev1} alt="graph"/>
    </Spin>
-  <p> Bootstrap, the world’s most popular framework <br/>
+  <p> Bootstrap, the world’s most popular framework <br className='none'/>
 for building responsive, mobile-first sites </p>
    </div>
    </div>
